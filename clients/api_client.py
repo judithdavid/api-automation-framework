@@ -5,7 +5,6 @@ class APIClient:
 
     def __init__(self):
         self.base_url = Config.BASE_URL
-        # self.session = requests.Session()
         
         self.session = requests.Session()
         self.session.headers.update({
