@@ -1,18 +1,16 @@
 
-from utils.validators import validate_status_code
-
-def test_create_post(api_client):
+def test_create_user(api_client):
     payload = {
-        "title": "foo",
-        "body": "bar",
-        "userId": 1
+        "name": "morpheus",
+        "job": "leader"
     }
 
-    response = api_client.post("/posts", payload)
+    response = api_client.post("/users", payload)
 
-    validate_status_code(response, 201)
-
+    assert response.status_code == 201
     data = response.json()
 
-    assert data["title"] == "foo"
-    assert data["body"] == "bar"
+    assert data["name"] == "morpheus"
+    assert data["job"] == "leader"
+
+
