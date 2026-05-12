@@ -1,0 +1,21 @@
+2026-05-02 22:00:12,840 | INFO | clients.api_client | [72ec0a35] REQUEST -> POST https://reqres.in/api/login
+2026-05-02 22:00:12,840 | INFO | clients.api_client | [72ec0a35] Payload ->
+{
+  "email": "eve.holt@reqres.in",
+  "password": "cityslicka"
+}
+2026-05-02 22:00:14,461 | INFO | clients.api_client | [72ec0a35] RESPONSE <- 200 POST https://reqres.in/api/login | 1617.45 ms
+2026-05-02 22:00:14,464 | INFO | clients.api_client | [e5c587c8] REQUEST -> POST https://reqres.in/api/users
+2026-05-02 22:00:14,465 | INFO | clients.api_client | [e5c587c8] Payload ->
+{
+  "name": "morpheus",
+  "job": "leader"
+}
+2026-05-02 22:00:14,673 | INFO | clients.api_client | [e5c587c8] RESPONSE <- 201 POST https://reqres.in/api/users | 208.18 ms
+2026-05-02 22:00:14,673 | INFO | clients.api_client | [ede53328] REQUEST -> PUT https://reqres.in/api/users/573
+2026-05-02 22:00:14,673 | INFO | clients.api_client | [ede53328] Payload ->
+{
+  "name": "neo",
+  "job": "the one"
+}
+2026-05-02 22:00:15,177 | INFO | clients.api_client | [ede53328] RESPONSE <- 200 PUT https://reqres.in/api/users/573 | 504.41 ms

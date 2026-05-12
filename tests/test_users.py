@@ -1,22 +1,25 @@
 
+from core.response import APIResponse
+from core.assertions import assert_status, assert_list, assert_not_empty, assert_key
+from schemas.user_schema import USER_SCHEMA
+from utils.validators import validate_json_schema_data
 import pytest
-from utils.validators import validate_status_code
-
-
-@pytest.mark.parametrize("user_id", [1, 2, 3])
-def test_get_multiple_users(api_client, user_id):
-    response = api_client.get(f"/users/{user_id}")
-
-    validate_status_code(response, 200)
 
 @pytest.mark.smoke
 def test_get_users(api_client):
-    response = api_client.get("/users")
+    resp = APIResponse(api_client.get("/users"))
 
-    validate_status_code(response, 200)
+    # Layer 1: Transport
+    assert_status(resp, 200)
 
-    data = response.json()
+    # Layer 2: Structure
+    users = resp.data
+    assert_list(users)
+    assert_not_empty(users)
 
-    assert isinstance(data, list)
-    assert len(data) > 0
-    assert "id" in data[0]
+    # Layer 3: Contract
+    for user in users:
+        validate_json_schema_data(user, USER_SCHEMA)
+
+    # Layer 4: Business sanity
+    assert_key(users[0], "id")

@@ -1,0 +1,1325 @@
+2026-04-25 17:02:25,402 | INFO | clients.api_client | REQUEST -> POST https://jsonplaceholder.typicode.com/users
+2026-04-25 17:02:25,404 | INFO | clients.api_client | Payload -> {'name': 'morpheus', 'job': 'leader'}
+2026-04-25 17:02:27,440 | INFO | clients.api_client | RESPONSE <- 201 POST https://jsonplaceholder.typicode.com/users
+2026-04-25 17:02:27,440 | INFO | clients.api_client | Response Body -> {
+  "name": "morpheus",
+  "job": "leader",
+  "id": 11
+}
+2026-04-25 17:07:24,147 | INFO | clients.api_client | REQUEST -> POST https://jsonplaceholder.typicode.com/users
+2026-04-25 17:07:24,148 | INFO | clients.api_client | Payload -> {'name': 'morpheus', 'job': 'leader'}
+2026-04-25 17:07:26,136 | INFO | clients.api_client | RESPONSE <- 201 POST https://jsonplaceholder.typicode.com/users
+2026-04-25 17:07:26,136 | INFO | clients.api_client | Response Body -> {
+  "name": "morpheus",
+  "job": "leader",
+  "id": 11
+}
+2026-04-25 17:07:26,143 | INFO | clients.api_client | REQUEST -> GET https://jsonplaceholder.typicode.com/invalidendpoint
+2026-04-25 17:07:27,076 | INFO | clients.api_client | RESPONSE <- 404 GET https://jsonplaceholder.typicode.com/invalidendpoint
+2026-04-25 17:07:27,076 | INFO | clients.api_client | Response Body -> {}
+2026-04-25 17:07:27,091 | INFO | clients.api_client | REQUEST -> GET https://jsonplaceholder.typicode.com/users/1
+2026-04-25 17:07:27,910 | INFO | clients.api_client | RESPONSE <- 200 GET https://jsonplaceholder.typicode.com/users/1
+2026-04-25 17:07:27,911 | INFO | clients.api_client | Response Body -> {
+  "id": 1,
+  "name": "Leanne Graham",
+  "username": "Bret",
+  "email": "Sincere@april.biz",
+  "address": {
+    "street": "Kulas Light",
+    "suite": "Apt. 556",
+    "city": "Gwenborough",
+    "zipcode": "92998-3874",
+    "geo": {
+      "lat": "-37.3159",
+      "lng": "81.1496"
+    }
+  },
+  "phone": "1-770-736-8031 x56442",
+  "website": "hildegard.org",
+  "company": {
+    "name": "Romaguera-Crona",
+    "catchPhrase": "Multi-layered client-server neural-net",
+    "bs": "harness real-time e-marke
+2026-04-25 17:07:27,919 | INFO | clients.api_client | REQUEST -> GET https://jsonplaceholder.typicode.com/users/2
+2026-04-25 17:07:28,723 | INFO | clients.api_client | RESPONSE <- 200 GET https://jsonplaceholder.typicode.com/users/2
+2026-04-25 17:07:28,723 | INFO | clients.api_client | Response Body -> {
+  "id": 2,
+  "name": "Ervin Howell",
+  "username": "Antonette",
+  "email": "Shanna@melissa.tv",
+  "address": {
+    "street": "Victor Plains",
+    "suite": "Suite 879",
+    "city": "Wisokyburgh",
+    "zipcode": "90566-7771",
+    "geo": {
+      "lat": "-43.9509",
+      "lng": "-34.4618"
+    }
+  },
+  "phone": "010-692-6593 x09125",
+  "website": "anastasia.net",
+  "company": {
+    "name": "Deckow-Crist",
+    "catchPhrase": "Proactive didactic contingency",
+    "bs": "synergize scalable supply-chai
+2026-04-25 17:07:28,730 | INFO | clients.api_client | REQUEST -> GET https://jsonplaceholder.typicode.com/users/3
+2026-04-25 17:07:29,539 | INFO | clients.api_client | RESPONSE <- 200 GET https://jsonplaceholder.typicode.com/users/3
+2026-04-25 17:07:29,539 | INFO | clients.api_client | Response Body -> {
+  "id": 3,
+  "name": "Clementine Bauch",
+  "username": "Samantha",
+  "email": "Nathan@yesenia.net",
+  "address": {
+    "street": "Douglas Extension",
+    "suite": "Suite 847",
+    "city": "McKenziehaven",
+    "zipcode": "59590-4157",
+    "geo": {
+      "lat": "-68.6102",
+      "lng": "-47.0653"
+    }
+  },
+  "phone": "1-463-123-4447",
+  "website": "ramiro.info",
+  "company": {
+    "name": "Romaguera-Jacobson",
+    "catchPhrase": "Face to face bifurcated interface",
+    "bs": "e-enable strategic
+2026-04-25 17:07:29,545 | INFO | clients.api_client | REQUEST -> GET https://jsonplaceholder.typicode.com/users
+2026-04-25 17:07:30,461 | INFO | clients.api_client | RESPONSE <- 200 GET https://jsonplaceholder.typicode.com/users
+2026-04-25 17:07:30,461 | INFO | clients.api_client | Response Body -> [
+  {
+    "id": 1,
+    "name": "Leanne Graham",
+    "username": "Bret",
+    "email": "Sincere@april.biz",
+    "address": {
+      "street": "Kulas Light",
+      "suite": "Apt. 556",
+      "city": "Gwenborough",
+      "zipcode": "92998-3874",
+      "geo": {
+        "lat": "-37.3159",
+        "lng": "81.1496"
+      }
+    },
+    "phone": "1-770-736-8031 x56442",
+    "website": "hildegard.org",
+    "company": {
+      "name": "Romaguera-Crona",
+      "catchPhrase": "Multi-layered client-server neural-
+2026-04-25 18:01:00,335 | INFO | clients.api_client | REQUEST -> POST https://jsonplaceholder.typicode.com/users
+2026-04-25 18:01:00,335 | INFO | clients.api_client | Payload -> {'name': 'morpheus', 'job': 'leader'}
+2026-04-25 18:01:02,251 | INFO | clients.api_client | RESPONSE <- 201 POST https://jsonplaceholder.typicode.com/users
+2026-04-25 18:01:02,251 | INFO | clients.api_client | Response Body -> {
+  "name": "morpheus",
+  "job": "leader",
+  "id": 11
+}
+2026-04-25 18:01:02,258 | INFO | clients.api_client | REQUEST -> GET https://jsonplaceholder.typicode.com/invalidendpoint
+2026-04-25 18:01:03,096 | INFO | clients.api_client | RESPONSE <- 404 GET https://jsonplaceholder.typicode.com/invalidendpoint
+2026-04-25 18:01:03,096 | INFO | clients.api_client | Response Body -> {}
+2026-04-25 18:01:03,102 | INFO | clients.api_client | REQUEST -> GET https://jsonplaceholder.typicode.com/users/1
+2026-04-25 18:01:03,917 | INFO | clients.api_client | RESPONSE <- 200 GET https://jsonplaceholder.typicode.com/users/1
+2026-04-25 18:01:03,917 | INFO | clients.api_client | Response Body -> {
+  "id": 1,
+  "name": "Leanne Graham",
+  "username": "Bret",
+  "email": "Sincere@april.biz",
+  "address": {
+    "street": "Kulas Light",
+    "suite": "Apt. 556",
+    "city": "Gwenborough",
+    "zipcode": "92998-3874",
+    "geo": {
+      "lat": "-37.3159",
+      "lng": "81.1496"
+    }
+  },
+  "phone": "1-770-736-8031 x56442",
+  "website": "hildegard.org",
+  "company": {
+    "name": "Romaguera-Crona",
+    "catchPhrase": "Multi-layered client-server neural-net",
+    "bs": "harness real-time e-marke
+2026-04-25 18:01:03,929 | INFO | clients.api_client | REQUEST -> GET https://jsonplaceholder.typicode.com/users/2
+2026-04-25 18:01:04,735 | INFO | clients.api_client | RESPONSE <- 200 GET https://jsonplaceholder.typicode.com/users/2
+2026-04-25 18:01:04,735 | INFO | clients.api_client | Response Body -> {
+  "id": 2,
+  "name": "Ervin Howell",
+  "username": "Antonette",
+  "email": "Shanna@melissa.tv",
+  "address": {
+    "street": "Victor Plains",
+    "suite": "Suite 879",
+    "city": "Wisokyburgh",
+    "zipcode": "90566-7771",
+    "geo": {
+      "lat": "-43.9509",
+      "lng": "-34.4618"
+    }
+  },
+  "phone": "010-692-6593 x09125",
+  "website": "anastasia.net",
+  "company": {
+    "name": "Deckow-Crist",
+    "catchPhrase": "Proactive didactic contingency",
+    "bs": "synergize scalable supply-chai
+2026-04-25 18:01:04,743 | INFO | clients.api_client | REQUEST -> GET https://jsonplaceholder.typicode.com/users/3
+2026-04-25 18:01:05,549 | INFO | clients.api_client | RESPONSE <- 200 GET https://jsonplaceholder.typicode.com/users/3
+2026-04-25 18:01:05,551 | INFO | clients.api_client | Response Body -> {
+  "id": 3,
+  "name": "Clementine Bauch",
+  "username": "Samantha",
+  "email": "Nathan@yesenia.net",
+  "address": {
+    "street": "Douglas Extension",
+    "suite": "Suite 847",
+    "city": "McKenziehaven",
+    "zipcode": "59590-4157",
+    "geo": {
+      "lat": "-68.6102",
+      "lng": "-47.0653"
+    }
+  },
+  "phone": "1-463-123-4447",
+  "website": "ramiro.info",
+  "company": {
+    "name": "Romaguera-Jacobson",
+    "catchPhrase": "Face to face bifurcated interface",
+    "bs": "e-enable strategic
+2026-04-25 18:01:05,557 | INFO | clients.api_client | REQUEST -> GET https://jsonplaceholder.typicode.com/users
+2026-04-25 18:01:06,371 | INFO | clients.api_client | RESPONSE <- 200 GET https://jsonplaceholder.typicode.com/users
+2026-04-25 18:01:06,371 | INFO | clients.api_client | Response Body -> [
+  {
+    "id": 1,
+    "name": "Leanne Graham",
+    "username": "Bret",
+    "email": "Sincere@april.biz",
+    "address": {
+      "street": "Kulas Light",
+      "suite": "Apt. 556",
+      "city": "Gwenborough",
+      "zipcode": "92998-3874",
+      "geo": {
+        "lat": "-37.3159",
+        "lng": "81.1496"
+      }
+    },
+    "phone": "1-770-736-8031 x56442",
+    "website": "hildegard.org",
+    "company": {
+      "name": "Romaguera-Crona",
+      "catchPhrase": "Multi-layered client-server neural-
+2026-04-25 18:01:06,400 | INFO | clients.api_client | REQUEST -> GET https://jsonplaceholder.typicode.com/users/1
+2026-04-25 18:01:07,180 | INFO | clients.api_client | RESPONSE <- 200 GET https://jsonplaceholder.typicode.com/users/1
+2026-04-25 18:01:07,180 | INFO | clients.api_client | Response Body -> {
+  "id": 1,
+  "name": "Leanne Graham",
+  "username": "Bret",
+  "email": "Sincere@april.biz",
+  "address": {
+    "street": "Kulas Light",
+    "suite": "Apt. 556",
+    "city": "Gwenborough",
+    "zipcode": "92998-3874",
+    "geo": {
+      "lat": "-37.3159",
+      "lng": "81.1496"
+    }
+  },
+  "phone": "1-770-736-8031 x56442",
+  "website": "hildegard.org",
+  "company": {
+    "name": "Romaguera-Crona",
+    "catchPhrase": "Multi-layered client-server neural-net",
+    "bs": "harness real-time e-marke
+2026-04-30 22:59:39,771 | INFO | clients.api_client | REQUEST -> POST https://reqres.in/api/login
+2026-04-30 22:59:39,771 | INFO | clients.api_client | Payload -> {'email': 'eve.holt@reqres.in', 'password': 'cityslicka'}
+2026-04-30 22:59:41,437 | INFO | clients.api_client | RESPONSE <- 401 POST https://reqres.in/api/login
+2026-04-30 22:59:41,437 | INFO | clients.api_client | Response Body -> {"error":"missing_api_key","message":"The x-api-key header is required for this endpoint.","hint":"Send x-api-key for admin calls (/api/*) or Authorization: Bearer <token> for app-user calls (/app/*).","next_steps":["Go to app.reqres.in/api-keys to get your key","Add header: x-api-key: <your_key>","For app user endpoints, use Authorization: Bearer <session_token> instead"],"docs_url":"https://app.reqres.in/docs#authentication","example_curl":"curl -H \"x-api-key: YOUR_API_KEY\" https://api.reqre
+2026-04-30 23:51:00,659 | INFO | clients.api_client | REQUEST -> POST https://reqres.in/api/login
+2026-04-30 23:51:00,667 | INFO | clients.api_client | Payload -> {'email': 'eve.holt@reqres.in', 'password': 'cityslicka'}
+2026-04-30 23:51:02,584 | INFO | clients.api_client | RESPONSE <- 200 POST https://reqres.in/api/login
+2026-04-30 23:51:02,584 | INFO | clients.api_client | Response Body -> {"token":"QpwL5tke4Pnpja7X4","_meta":{"powered_by":"ReqRes","docs_url":"https://app.reqres.in/documentation","upgrade_url":"https://app.reqres.in/upgrade","example_url":"https://app.reqres.in/examples/notes-app","variant":"v1_a","message":"Your data persists here. Add auth, logs, and custom schemas to build a real backend.","cta":{"label":"See example app","url":"https://app.reqres.in/examples/notes-app"},"context":"legacy_success"}}
+2026-04-30 23:51:02,584 | INFO | clients.api_client | REQUEST -> POST https://reqres.in/api/users
+2026-04-30 23:51:02,591 | INFO | clients.api_client | Payload -> {'name': 'morpheus', 'job': 'leader'}
+2026-04-30 23:51:02,998 | INFO | clients.api_client | RESPONSE <- 201 POST https://reqres.in/api/users
+2026-04-30 23:51:02,998 | INFO | clients.api_client | Response Body -> {"name":"morpheus","job":"leader","id":"86","createdAt":"2026-04-30T18:16:54.432Z","_meta":{"powered_by":"ReqRes","docs_url":"https://app.reqres.in/documentation","upgrade_url":"https://app.reqres.in/upgrade","example_url":"https://app.reqres.in/examples/notes-app","variant":"v1_a","message":"Your data persists here. Add auth, logs, and custom schemas to build a real backend.","cta":{"label":"See example app","url":"https://app.reqres.in/examples/notes-app"},"context":"legacy_success"}}
+2026-04-30 23:51:02,998 | INFO | clients.api_client | REQUEST -> PUT https://reqres.in/api/users/86
+2026-04-30 23:51:03,000 | INFO | clients.api_client | Payload -> {'name': 'neo', 'job': 'the one'}
+2026-04-30 23:51:03,495 | INFO | clients.api_client | RESPONSE <- 200 PUT https://reqres.in/api/users/86
+2026-04-30 23:51:03,499 | INFO | clients.api_client | Response Body -> {"name":"neo","job":"the one","updatedAt":"2026-04-30T18:16:54.984Z","_meta":{"powered_by":"ReqRes","docs_url":"https://app.reqres.in/documentation","upgrade_url":"https://app.reqres.in/upgrade","example_url":"https://app.reqres.in/examples/notes-app","variant":"v1_a","message":"Your data persists here. Add auth, logs, and custom schemas to build a real backend.","cta":{"label":"See example app","url":"https://app.reqres.in/examples/notes-app"},"context":"legacy_success"}}
+2026-04-30 23:51:03,504 | INFO | clients.api_client | REQUEST -> GET https://reqres.in/api/invalidendpoint
+2026-04-30 23:51:04,004 | INFO | clients.api_client | RESPONSE <- 200 GET https://reqres.in/api/invalidendpoint
+2026-04-30 23:51:04,004 | INFO | clients.api_client | Response Body -> {"page":1,"per_page":6,"total":12,"total_pages":2,"data":[{"id":1,"name":"cerulean","year":2000,"color":"#98B2D1","pantone_value":"15-4020"},{"id":2,"name":"fuchsia rose","year":2001,"color":"#C74375","pantone_value":"17-2031"},{"id":3,"name":"true red","year":2002,"color":"#BF1932","pantone_value":"19-1664"},{"id":4,"name":"aqua sky","year":2003,"color":"#7BC4C4","pantone_value":"14-4811"},{"id":5,"name":"tigerlily","year":2004,"color":"#E2583E","pantone_value":"17-1456"},{"id":6,"name":"blue t
+2026-04-30 23:51:04,229 | INFO | clients.api_client | REQUEST -> GET https://reqres.in/api/users/1
+2026-04-30 23:51:04,829 | INFO | clients.api_client | RESPONSE <- 200 GET https://reqres.in/api/users/1
+2026-04-30 23:51:04,829 | INFO | clients.api_client | Response Body -> {"data":{"id":1,"email":"george.bluth@reqres.in","first_name":"George","last_name":"Bluth","avatar":"https://reqres.in/img/faces/1-image.jpg"},"support":{"url":"https://benhowdle.im/first-cto-playbook?utm_source=reqres&utm_medium=json&utm_campaign=referral","text":"Become a better CTO. A playbook of painful stories and practical advice from a two-time startup CTO."},"_meta":{"powered_by":"ReqRes","docs_url":"https://app.reqres.in/documentation","upgrade_url":"https://app.reqres.in/upgrade","exam
+2026-04-30 23:51:04,834 | INFO | clients.api_client | REQUEST -> GET https://reqres.in/api/users/2
+2026-04-30 23:51:05,351 | INFO | clients.api_client | RESPONSE <- 200 GET https://reqres.in/api/users/2
+2026-04-30 23:51:05,351 | INFO | clients.api_client | Response Body -> {"data":{"id":2,"email":"janet.weaver@reqres.in","first_name":"Janet","last_name":"Weaver","avatar":"https://reqres.in/img/faces/2-image.jpg"},"support":{"url":"https://benhowdle.im/first-cto-playbook?utm_source=reqres&utm_medium=json&utm_campaign=referral","text":"Become a better CTO. A playbook of painful stories and practical advice from a two-time startup CTO."},"_meta":{"powered_by":"ReqRes","docs_url":"https://app.reqres.in/documentation","upgrade_url":"https://app.reqres.in/upgrade","exam
+2026-04-30 23:51:05,356 | INFO | clients.api_client | REQUEST -> GET https://reqres.in/api/users/3
+2026-04-30 23:51:05,856 | INFO | clients.api_client | RESPONSE <- 200 GET https://reqres.in/api/users/3
+2026-04-30 23:51:05,856 | INFO | clients.api_client | Response Body -> {"data":{"id":3,"email":"emma.wong@reqres.in","first_name":"Emma","last_name":"Wong","avatar":"https://reqres.in/img/faces/3-image.jpg"},"support":{"url":"https://benhowdle.im/first-cto-playbook?utm_source=reqres&utm_medium=json&utm_campaign=referral","text":"Become a better CTO. A playbook of painful stories and practical advice from a two-time startup CTO."},"_meta":{"powered_by":"ReqRes","docs_url":"https://app.reqres.in/documentation","upgrade_url":"https://app.reqres.in/upgrade","example_ur
+2026-04-30 23:51:05,859 | INFO | clients.api_client | REQUEST -> GET https://reqres.in/api/users
+2026-04-30 23:51:06,079 | INFO | clients.api_client | RESPONSE <- 200 GET https://reqres.in/api/users
+2026-04-30 23:51:06,081 | INFO | clients.api_client | Response Body -> {"page":1,"per_page":6,"total":12,"total_pages":2,"data":[{"id":1,"email":"george.bluth@reqres.in","first_name":"George","last_name":"Bluth","avatar":"https://reqres.in/img/faces/1-image.jpg"},{"id":2,"email":"janet.weaver@reqres.in","first_name":"Janet","last_name":"Weaver","avatar":"https://reqres.in/img/faces/2-image.jpg"},{"id":3,"email":"emma.wong@reqres.in","first_name":"Emma","last_name":"Wong","avatar":"https://reqres.in/img/faces/3-image.jpg"},{"id":4,"email":"eve.holt@reqres.in","first
+2026-04-30 23:51:06,095 | INFO | clients.api_client | REQUEST -> GET https://reqres.in/api/users/1
+2026-04-30 23:51:06,473 | INFO | clients.api_client | RESPONSE <- 200 GET https://reqres.in/api/users/1
+2026-04-30 23:51:06,475 | INFO | clients.api_client | Response Body -> {"data":{"id":1,"email":"george.bluth@reqres.in","first_name":"George","last_name":"Bluth","avatar":"https://reqres.in/img/faces/1-image.jpg"},"support":{"url":"https://benhowdle.im/first-cto-playbook?utm_source=reqres&utm_medium=json&utm_campaign=referral","text":"Become a better CTO. A playbook of painful stories and practical advice from a two-time startup CTO."},"_meta":{"powered_by":"ReqRes","docs_url":"https://app.reqres.in/documentation","upgrade_url":"https://app.reqres.in/upgrade","exam
+2026-05-01 22:17:28,155 | INFO | clients.api_client | REQUEST -> POST https://reqres.in/api/login
+2026-05-01 22:17:28,156 | INFO | clients.api_client | Payload -> {'email': 'eve.holt@reqres.in', 'password': 'cityslicka'}
+2026-05-01 22:17:29,582 | INFO | clients.api_client | RESPONSE <- 200 POST https://reqres.in/api/login
+2026-05-01 22:17:29,582 | INFO | clients.api_client | Response Body -> {"token":"QpwL5tke4Pnpja7X4","_meta":{"powered_by":"ReqRes","docs_url":"https://app.reqres.in/documentation","upgrade_url":"https://app.reqres.in/upgrade","example_url":"https://app.reqres.in/examples/notes-app","variant":"v1_a","message":"Your data persists here. Add auth, logs, and custom schemas to build a real backend.","cta":{"label":"See example app","url":"https://app.reqres.in/examples/notes-app"},"context":"legacy_success"}}
+2026-05-01 22:17:29,584 | INFO | clients.api_client | REQUEST -> POST https://reqres.in/api/users
+2026-05-01 22:17:29,586 | INFO | clients.api_client | Payload -> {'name': 'morpheus', 'job': 'leader'}
+2026-05-01 22:17:29,816 | INFO | clients.api_client | RESPONSE <- 201 POST https://reqres.in/api/users
+2026-05-01 22:17:29,816 | INFO | clients.api_client | Response Body -> {"name":"morpheus","job":"leader","id":"794","createdAt":"2026-05-01T16:43:21.629Z","_meta":{"powered_by":"ReqRes","docs_url":"https://app.reqres.in/documentation","upgrade_url":"https://app.reqres.in/upgrade","example_url":"https://app.reqres.in/examples/notes-app","variant":"v1_a","message":"Your data persists here. Add auth, logs, and custom schemas to build a real backend.","cta":{"label":"See example app","url":"https://app.reqres.in/examples/notes-app"},"context":"legacy_success"}}
+2026-05-01 22:17:29,816 | INFO | clients.api_client | REQUEST -> PUT https://reqres.in/api/users/794
+2026-05-01 22:17:29,816 | INFO | clients.api_client | Payload -> {'name': 'neo', 'job': 'the one'}
+2026-05-01 22:17:30,307 | INFO | clients.api_client | RESPONSE <- 200 PUT https://reqres.in/api/users/794
+2026-05-01 22:17:30,307 | INFO | clients.api_client | Response Body -> {"name":"neo","job":"the one","updatedAt":"2026-05-01T16:43:22.135Z","_meta":{"powered_by":"ReqRes","docs_url":"https://app.reqres.in/documentation","upgrade_url":"https://app.reqres.in/upgrade","example_url":"https://app.reqres.in/examples/notes-app","variant":"v1_a","message":"Your data persists here. Add auth, logs, and custom schemas to build a real backend.","cta":{"label":"See example app","url":"https://app.reqres.in/examples/notes-app"},"context":"legacy_success"}}
+2026-05-01 22:17:30,313 | INFO | clients.api_client | REQUEST -> GET https://reqres.in/api/invalidendpoint
+2026-05-01 22:17:30,957 | INFO | clients.api_client | RESPONSE <- 200 GET https://reqres.in/api/invalidendpoint
+2026-05-01 22:17:30,957 | INFO | clients.api_client | Response Body -> {"page":1,"per_page":6,"total":12,"total_pages":2,"data":[{"id":1,"name":"cerulean","year":2000,"color":"#98B2D1","pantone_value":"15-4020"},{"id":2,"name":"fuchsia rose","year":2001,"color":"#C74375","pantone_value":"17-2031"},{"id":3,"name":"true red","year":2002,"color":"#BF1932","pantone_value":"19-1664"},{"id":4,"name":"aqua sky","year":2003,"color":"#7BC4C4","pantone_value":"14-4811"},{"id":5,"name":"tigerlily","year":2004,"color":"#E2583E","pantone_value":"17-1456"},{"id":6,"name":"blue t
+2026-05-01 22:17:31,482 | INFO | clients.api_client | REQUEST -> GET https://reqres.in/api/users/1
+2026-05-01 22:17:31,898 | INFO | clients.api_client | RESPONSE <- 200 GET https://reqres.in/api/users/1
+2026-05-01 22:17:31,898 | INFO | clients.api_client | Response Body -> {"data":{"id":1,"email":"george.bluth@reqres.in","first_name":"George","last_name":"Bluth","avatar":"https://reqres.in/img/faces/1-image.jpg"},"support":{"url":"https://benhowdle.im/first-cto-playbook?utm_source=reqres&utm_medium=json&utm_campaign=referral","text":"Become a better CTO. A playbook of painful stories and practical advice from a two-time startup CTO."},"_meta":{"powered_by":"ReqRes","docs_url":"https://app.reqres.in/documentation","upgrade_url":"https://app.reqres.in/upgrade","exam
+2026-05-01 22:17:31,906 | INFO | clients.api_client | REQUEST -> GET https://reqres.in/api/users/2
+2026-05-01 22:17:32,463 | INFO | clients.api_client | RESPONSE <- 200 GET https://reqres.in/api/users/2
+2026-05-01 22:17:32,463 | INFO | clients.api_client | Response Body -> {"data":{"id":2,"email":"janet.weaver@reqres.in","first_name":"Janet","last_name":"Weaver","avatar":"https://reqres.in/img/faces/2-image.jpg"},"support":{"url":"https://benhowdle.im/first-cto-playbook?utm_source=reqres&utm_medium=json&utm_campaign=referral","text":"Become a better CTO. A playbook of painful stories and practical advice from a two-time startup CTO."},"_meta":{"powered_by":"ReqRes","docs_url":"https://app.reqres.in/documentation","upgrade_url":"https://app.reqres.in/upgrade","exam
+2026-05-01 22:17:32,468 | INFO | clients.api_client | REQUEST -> GET https://reqres.in/api/users/3
+2026-05-01 22:17:33,116 | INFO | clients.api_client | RESPONSE <- 200 GET https://reqres.in/api/users/3
+2026-05-01 22:17:33,118 | INFO | clients.api_client | Response Body -> {"data":{"id":3,"email":"emma.wong@reqres.in","first_name":"Emma","last_name":"Wong","avatar":"https://reqres.in/img/faces/3-image.jpg"},"support":{"url":"https://benhowdle.im/first-cto-playbook?utm_source=reqres&utm_medium=json&utm_campaign=referral","text":"Become a better CTO. A playbook of painful stories and practical advice from a two-time startup CTO."},"_meta":{"powered_by":"ReqRes","docs_url":"https://app.reqres.in/documentation","upgrade_url":"https://app.reqres.in/upgrade","example_ur
+2026-05-01 22:17:33,118 | INFO | clients.api_client | REQUEST -> GET https://reqres.in/api/users
+2026-05-01 22:17:33,351 | INFO | clients.api_client | RESPONSE <- 200 GET https://reqres.in/api/users
+2026-05-01 22:17:33,351 | INFO | clients.api_client | Response Body -> {"page":1,"per_page":6,"total":12,"total_pages":2,"data":[{"id":1,"email":"george.bluth@reqres.in","first_name":"George","last_name":"Bluth","avatar":"https://reqres.in/img/faces/1-image.jpg"},{"id":2,"email":"janet.weaver@reqres.in","first_name":"Janet","last_name":"Weaver","avatar":"https://reqres.in/img/faces/2-image.jpg"},{"id":3,"email":"emma.wong@reqres.in","first_name":"Emma","last_name":"Wong","avatar":"https://reqres.in/img/faces/3-image.jpg"},{"id":4,"email":"eve.holt@reqres.in","first
+2026-05-01 22:17:33,362 | INFO | clients.api_client | REQUEST -> GET https://reqres.in/api/users/1
+2026-05-01 22:17:33,727 | INFO | clients.api_client | RESPONSE <- 200 GET https://reqres.in/api/users/1
+2026-05-01 22:17:33,727 | INFO | clients.api_client | Response Body -> {"data":{"id":1,"email":"george.bluth@reqres.in","first_name":"George","last_name":"Bluth","avatar":"https://reqres.in/img/faces/1-image.jpg"},"support":{"url":"https://benhowdle.im/first-cto-playbook?utm_source=reqres&utm_medium=json&utm_campaign=referral","text":"Become a better CTO. A playbook of painful stories and practical advice from a two-time startup CTO."},"_meta":{"powered_by":"ReqRes","docs_url":"https://app.reqres.in/documentation","upgrade_url":"https://app.reqres.in/upgrade","exam
+2026-05-02 21:11:40,367 | INFO | clients.api_client | REQUEST -> POST https://reqres.in/api/login
+2026-05-02 21:11:40,368 | INFO | clients.api_client | Payload -> {'email': 'eve.holt@reqres.in', 'password': 'cityslicka'}
+2026-05-02 21:11:41,500 | INFO | clients.api_client | RESPONSE <- 200 POST https://reqres.in/api/login
+2026-05-02 21:11:41,500 | INFO | clients.api_client | Response Body -> {"token":"QpwL5tke4Pnpja7X4","_meta":{"powered_by":"ReqRes","docs_url":"https://app.reqres.in/documentation","upgrade_url":"https://app.reqres.in/upgrade","example_url":"https://app.reqres.in/examples/notes-app","variant":"v1_a","message":"Your data persists here. Add auth, logs, and custom schemas to build a real backend.","cta":{"label":"See example app","url":"https://app.reqres.in/examples/notes-app"},"context":"legacy_success"}}
+2026-05-02 21:11:41,502 | INFO | clients.api_client | REQUEST -> POST https://reqres.in/api/users
+2026-05-02 21:11:41,503 | INFO | clients.api_client | Payload -> {'name': 'morpheus', 'job': 'leader'}
+2026-05-02 21:11:41,744 | INFO | clients.api_client | RESPONSE <- 201 POST https://reqres.in/api/users
+2026-05-02 21:11:41,744 | INFO | clients.api_client | Response Body -> {"name":"morpheus","job":"leader","id":"294","createdAt":"2026-05-02T15:37:32.787Z","_meta":{"powered_by":"ReqRes","docs_url":"https://app.reqres.in/documentation","upgrade_url":"https://app.reqres.in/upgrade","example_url":"https://app.reqres.in/examples/notes-app","variant":"v1_a","message":"Your data persists here. Add auth, logs, and custom schemas to build a real backend.","cta":{"label":"See example app","url":"https://app.reqres.in/examples/notes-app"},"context":"legacy_success"}}
+2026-05-02 21:11:41,745 | INFO | clients.api_client | REQUEST -> PUT https://reqres.in/api/users/294
+2026-05-02 21:11:41,745 | INFO | clients.api_client | Payload -> {'name': 'neo', 'job': 'the one'}
+2026-05-02 21:11:42,252 | INFO | clients.api_client | RESPONSE <- 200 PUT https://reqres.in/api/users/294
+2026-05-02 21:11:42,252 | INFO | clients.api_client | Response Body -> {"name":"neo","job":"the one","updatedAt":"2026-05-02T15:37:33.325Z","_meta":{"powered_by":"ReqRes","docs_url":"https://app.reqres.in/documentation","upgrade_url":"https://app.reqres.in/upgrade","example_url":"https://app.reqres.in/examples/notes-app","variant":"v1_a","message":"Your data persists here. Add auth, logs, and custom schemas to build a real backend.","cta":{"label":"See example app","url":"https://app.reqres.in/examples/notes-app"},"context":"legacy_success"}}
+2026-05-02 21:11:42,263 | INFO | clients.api_client | REQUEST -> GET https://reqres.in/api/invalidendpoint
+2026-05-02 21:11:42,472 | INFO | clients.api_client | RESPONSE <- 200 GET https://reqres.in/api/invalidendpoint
+2026-05-02 21:11:42,473 | INFO | clients.api_client | Response Body -> {"page":1,"per_page":6,"total":12,"total_pages":2,"data":[{"id":1,"name":"cerulean","year":2000,"color":"#98B2D1","pantone_value":"15-4020"},{"id":2,"name":"fuchsia rose","year":2001,"color":"#C74375","pantone_value":"17-2031"},{"id":3,"name":"true red","year":2002,"color":"#BF1932","pantone_value":"19-1664"},{"id":4,"name":"aqua sky","year":2003,"color":"#7BC4C4","pantone_value":"14-4811"},{"id":5,"name":"tigerlily","year":2004,"color":"#E2583E","pantone_value":"17-1456"},{"id":6,"name":"blue t
+2026-05-02 21:11:42,477 | INFO | clients.api_client | REQUEST -> GET https://reqres.in/api/users/1
+2026-05-02 21:11:42,928 | INFO | clients.api_client | RESPONSE <- 200 GET https://reqres.in/api/users/1
+2026-05-02 21:11:42,928 | INFO | clients.api_client | Response Body -> {"data":{"id":1,"email":"george.bluth@reqres.in","first_name":"George","last_name":"Bluth","avatar":"https://reqres.in/img/faces/1-image.jpg"},"support":{"url":"https://benhowdle.im/first-cto-playbook?utm_source=reqres&utm_medium=json&utm_campaign=referral","text":"Become a better CTO. A playbook of painful stories and practical advice from a two-time startup CTO."},"_meta":{"powered_by":"ReqRes","docs_url":"https://app.reqres.in/documentation","upgrade_url":"https://app.reqres.in/upgrade","exam
+2026-05-02 21:11:42,932 | INFO | clients.api_client | REQUEST -> GET https://reqres.in/api/users/2
+2026-05-02 21:11:43,343 | INFO | clients.api_client | RESPONSE <- 200 GET https://reqres.in/api/users/2
+2026-05-02 21:11:43,343 | INFO | clients.api_client | Response Body -> {"data":{"id":2,"email":"janet.weaver@reqres.in","first_name":"Janet","last_name":"Weaver","avatar":"https://reqres.in/img/faces/2-image.jpg"},"support":{"url":"https://benhowdle.im/first-cto-playbook?utm_source=reqres&utm_medium=json&utm_campaign=referral","text":"Become a better CTO. A playbook of painful stories and practical advice from a two-time startup CTO."},"_meta":{"powered_by":"ReqRes","docs_url":"https://app.reqres.in/documentation","upgrade_url":"https://app.reqres.in/upgrade","exam
+2026-05-02 21:11:43,347 | INFO | clients.api_client | REQUEST -> GET https://reqres.in/api/users/3
+2026-05-02 21:11:43,782 | INFO | clients.api_client | RESPONSE <- 200 GET https://reqres.in/api/users/3
+2026-05-02 21:11:43,783 | INFO | clients.api_client | Response Body -> {"data":{"id":3,"email":"emma.wong@reqres.in","first_name":"Emma","last_name":"Wong","avatar":"https://reqres.in/img/faces/3-image.jpg"},"support":{"url":"https://benhowdle.im/first-cto-playbook?utm_source=reqres&utm_medium=json&utm_campaign=referral","text":"Become a better CTO. A playbook of painful stories and practical advice from a two-time startup CTO."},"_meta":{"powered_by":"ReqRes","docs_url":"https://app.reqres.in/documentation","upgrade_url":"https://app.reqres.in/upgrade","example_ur
+2026-05-02 21:11:43,786 | INFO | clients.api_client | REQUEST -> GET https://reqres.in/api/users
+2026-05-02 21:11:44,005 | INFO | clients.api_client | RESPONSE <- 200 GET https://reqres.in/api/users
+2026-05-02 21:11:44,005 | INFO | clients.api_client | Response Body -> {"page":1,"per_page":6,"total":12,"total_pages":2,"data":[{"id":1,"email":"george.bluth@reqres.in","first_name":"George","last_name":"Bluth","avatar":"https://reqres.in/img/faces/1-image.jpg"},{"id":2,"email":"janet.weaver@reqres.in","first_name":"Janet","last_name":"Weaver","avatar":"https://reqres.in/img/faces/2-image.jpg"},{"id":3,"email":"emma.wong@reqres.in","first_name":"Emma","last_name":"Wong","avatar":"https://reqres.in/img/faces/3-image.jpg"},{"id":4,"email":"eve.holt@reqres.in","first
+2026-05-02 21:11:44,145 | INFO | clients.api_client | REQUEST -> GET https://reqres.in/api/users/1
+2026-05-02 21:11:44,380 | INFO | clients.api_client | RESPONSE <- 200 GET https://reqres.in/api/users/1
+2026-05-02 21:11:44,380 | INFO | clients.api_client | Response Body -> {"data":{"id":1,"email":"george.bluth@reqres.in","first_name":"George","last_name":"Bluth","avatar":"https://reqres.in/img/faces/1-image.jpg"},"support":{"url":"https://benhowdle.im/first-cto-playbook?utm_source=reqres&utm_medium=json&utm_campaign=referral","text":"Become a better CTO. A playbook of painful stories and practical advice from a two-time startup CTO."},"_meta":{"powered_by":"ReqRes","docs_url":"https://app.reqres.in/documentation","upgrade_url":"https://app.reqres.in/upgrade","exam
+2026-05-02 21:17:11,460 | INFO | clients.api_client | REQUEST -> POST https://reqres.in/api/login
+2026-05-02 21:17:11,460 | INFO | clients.api_client | Payload -> {'email': 'eve.holt@reqres.in', 'password': 'cityslicka'}
+2026-05-02 21:17:12,582 | INFO | clients.api_client | RESPONSE <- 200 POST https://reqres.in/api/login
+2026-05-02 21:17:12,584 | INFO | clients.api_client | Response Body -> {"token":"QpwL5tke4Pnpja7X4","_meta":{"powered_by":"ReqRes","docs_url":"https://app.reqres.in/documentation","upgrade_url":"https://app.reqres.in/upgrade","example_url":"https://app.reqres.in/examples/notes-app","variant":"v1_a","message":"Your data persists here. Add auth, logs, and custom schemas to build a real backend.","cta":{"label":"See example app","url":"https://app.reqres.in/examples/notes-app"},"context":"legacy_success"}}
+2026-05-02 21:17:12,589 | INFO | clients.api_client | REQUEST -> POST https://reqres.in/api/users
+2026-05-02 21:17:12,590 | INFO | clients.api_client | Payload -> {'name': 'morpheus', 'job': 'leader'}
+2026-05-02 21:17:12,832 | INFO | clients.api_client | RESPONSE <- 201 POST https://reqres.in/api/users
+2026-05-02 21:17:12,832 | INFO | clients.api_client | Response Body -> {"name":"morpheus","job":"leader","id":"287","createdAt":"2026-05-02T15:43:03.877Z","_meta":{"powered_by":"ReqRes","docs_url":"https://app.reqres.in/documentation","upgrade_url":"https://app.reqres.in/upgrade","example_url":"https://app.reqres.in/examples/notes-app","variant":"v1_a","message":"Your data persists here. Add auth, logs, and custom schemas to build a real backend.","cta":{"label":"See example app","url":"https://app.reqres.in/examples/notes-app"},"context":"legacy_success"}}
+2026-05-02 21:17:12,832 | INFO | clients.api_client | REQUEST -> PUT https://reqres.in/api/users/287
+2026-05-02 21:17:12,832 | INFO | clients.api_client | Payload -> {'name': 'neo', 'job': 'the one'}
+2026-05-02 21:17:13,444 | INFO | clients.api_client | RESPONSE <- 200 PUT https://reqres.in/api/users/287
+2026-05-02 21:17:13,444 | INFO | clients.api_client | Response Body -> {"name":"neo","job":"the one","updatedAt":"2026-05-02T15:43:04.512Z","_meta":{"powered_by":"ReqRes","docs_url":"https://app.reqres.in/documentation","upgrade_url":"https://app.reqres.in/upgrade","example_url":"https://app.reqres.in/examples/notes-app","variant":"v1_a","message":"Your data persists here. Add auth, logs, and custom schemas to build a real backend.","cta":{"label":"See example app","url":"https://app.reqres.in/examples/notes-app"},"context":"legacy_success"}}
+2026-05-02 21:17:13,448 | INFO | clients.api_client | REQUEST -> GET https://reqres.in/api/invalidendpoint
+2026-05-02 21:17:13,669 | INFO | clients.api_client | RESPONSE <- 200 GET https://reqres.in/api/invalidendpoint
+2026-05-02 21:17:13,669 | INFO | clients.api_client | Response Body -> {"page":1,"per_page":6,"total":12,"total_pages":2,"data":[{"id":1,"name":"cerulean","year":2000,"color":"#98B2D1","pantone_value":"15-4020"},{"id":2,"name":"fuchsia rose","year":2001,"color":"#C74375","pantone_value":"17-2031"},{"id":3,"name":"true red","year":2002,"color":"#BF1932","pantone_value":"19-1664"},{"id":4,"name":"aqua sky","year":2003,"color":"#7BC4C4","pantone_value":"14-4811"},{"id":5,"name":"tigerlily","year":2004,"color":"#E2583E","pantone_value":"17-1456"},{"id":6,"name":"blue t
+2026-05-02 21:17:13,672 | INFO | clients.api_client | REQUEST -> GET https://reqres.in/api/users/1
+2026-05-02 21:17:14,259 | INFO | clients.api_client | RESPONSE <- 200 GET https://reqres.in/api/users/1
+2026-05-02 21:17:14,259 | INFO | clients.api_client | Response Body -> {"data":{"id":1,"email":"george.bluth@reqres.in","first_name":"George","last_name":"Bluth","avatar":"https://reqres.in/img/faces/1-image.jpg"},"support":{"url":"https://benhowdle.im/first-cto-playbook?utm_source=reqres&utm_medium=json&utm_campaign=referral","text":"Become a better CTO. A playbook of painful stories and practical advice from a two-time startup CTO."},"_meta":{"powered_by":"ReqRes","docs_url":"https://app.reqres.in/documentation","upgrade_url":"https://app.reqres.in/upgrade","exam
+2026-05-02 21:17:14,262 | INFO | clients.api_client | REQUEST -> GET https://reqres.in/api/users/2
+2026-05-02 21:17:14,833 | INFO | clients.api_client | RESPONSE <- 200 GET https://reqres.in/api/users/2
+2026-05-02 21:17:14,833 | INFO | clients.api_client | Response Body -> {"data":{"id":2,"email":"janet.weaver@reqres.in","first_name":"Janet","last_name":"Weaver","avatar":"https://reqres.in/img/faces/2-image.jpg"},"support":{"url":"https://benhowdle.im/first-cto-playbook?utm_source=reqres&utm_medium=json&utm_campaign=referral","text":"Become a better CTO. A playbook of painful stories and practical advice from a two-time startup CTO."},"_meta":{"powered_by":"ReqRes","docs_url":"https://app.reqres.in/documentation","upgrade_url":"https://app.reqres.in/upgrade","exam
+2026-05-02 21:17:14,836 | INFO | clients.api_client | REQUEST -> GET https://reqres.in/api/users/3
+2026-05-02 21:17:15,320 | INFO | clients.api_client | RESPONSE <- 200 GET https://reqres.in/api/users/3
+2026-05-02 21:17:15,320 | INFO | clients.api_client | Response Body -> {"data":{"id":3,"email":"emma.wong@reqres.in","first_name":"Emma","last_name":"Wong","avatar":"https://reqres.in/img/faces/3-image.jpg"},"support":{"url":"https://benhowdle.im/first-cto-playbook?utm_source=reqres&utm_medium=json&utm_campaign=referral","text":"Become a better CTO. A playbook of painful stories and practical advice from a two-time startup CTO."},"_meta":{"powered_by":"ReqRes","docs_url":"https://app.reqres.in/documentation","upgrade_url":"https://app.reqres.in/upgrade","example_ur
+2026-05-02 21:17:15,323 | INFO | clients.api_client | REQUEST -> GET https://reqres.in/api/users
+2026-05-02 21:17:15,551 | INFO | clients.api_client | RESPONSE <- 200 GET https://reqres.in/api/users
+2026-05-02 21:17:15,551 | INFO | clients.api_client | Response Body -> {"page":1,"per_page":6,"total":12,"total_pages":2,"data":[{"id":1,"email":"george.bluth@reqres.in","first_name":"George","last_name":"Bluth","avatar":"https://reqres.in/img/faces/1-image.jpg"},{"id":2,"email":"janet.weaver@reqres.in","first_name":"Janet","last_name":"Weaver","avatar":"https://reqres.in/img/faces/2-image.jpg"},{"id":3,"email":"emma.wong@reqres.in","first_name":"Emma","last_name":"Wong","avatar":"https://reqres.in/img/faces/3-image.jpg"},{"id":4,"email":"eve.holt@reqres.in","first
+2026-05-02 21:17:15,566 | INFO | clients.api_client | REQUEST -> GET https://reqres.in/api/users/1
+2026-05-02 21:17:15,781 | INFO | clients.api_client | RESPONSE <- 200 GET https://reqres.in/api/users/1
+2026-05-02 21:17:15,781 | INFO | clients.api_client | Response Body -> {"data":{"id":1,"email":"george.bluth@reqres.in","first_name":"George","last_name":"Bluth","avatar":"https://reqres.in/img/faces/1-image.jpg"},"support":{"url":"https://benhowdle.im/first-cto-playbook?utm_source=reqres&utm_medium=json&utm_campaign=referral","text":"Become a better CTO. A playbook of painful stories and practical advice from a two-time startup CTO."},"_meta":{"powered_by":"ReqRes","docs_url":"https://app.reqres.in/documentation","upgrade_url":"https://app.reqres.in/upgrade","exam
+2026-05-02 21:19:06,331 | INFO | clients.api_client | REQUEST -> POST https://reqres.in/api/login
+2026-05-02 21:19:06,331 | INFO | clients.api_client | Payload -> {'email': 'eve.holt@reqres.in', 'password': 'cityslicka'}
+2026-05-02 21:19:07,235 | INFO | clients.api_client | RESPONSE <- 200 POST https://reqres.in/api/login
+2026-05-02 21:19:07,235 | INFO | clients.api_client | Response Body -> {"token":"QpwL5tke4Pnpja7X4","_meta":{"powered_by":"ReqRes","docs_url":"https://app.reqres.in/documentation","upgrade_url":"https://app.reqres.in/upgrade","example_url":"https://app.reqres.in/examples/notes-app","variant":"v1_a","message":"Your data persists here. Add auth, logs, and custom schemas to build a real backend.","cta":{"label":"See example app","url":"https://app.reqres.in/examples/notes-app"},"context":"legacy_success"}}
+2026-05-02 21:19:07,242 | INFO | clients.api_client | REQUEST -> POST https://reqres.in/api/users
+2026-05-02 21:19:07,242 | INFO | clients.api_client | Payload -> {'name': 'morpheus', 'job': 'leader'}
+2026-05-02 21:19:07,464 | INFO | clients.api_client | RESPONSE <- 201 POST https://reqres.in/api/users
+2026-05-02 21:19:07,464 | INFO | clients.api_client | Response Body -> {"name":"morpheus","job":"leader","id":"818","createdAt":"2026-05-02T15:44:58.517Z","_meta":{"powered_by":"ReqRes","docs_url":"https://app.reqres.in/documentation","upgrade_url":"https://app.reqres.in/upgrade","example_url":"https://app.reqres.in/examples/notes-app","variant":"v1_a","message":"Your data persists here. Add auth, logs, and custom schemas to build a real backend.","cta":{"label":"See example app","url":"https://app.reqres.in/examples/notes-app"},"context":"legacy_success"}}
+2026-05-02 21:19:07,464 | INFO | clients.api_client | REQUEST -> PUT https://reqres.in/api/users/818
+2026-05-02 21:19:07,464 | INFO | clients.api_client | Payload -> {'name': 'neo', 'job': 'the one'}
+2026-05-02 21:19:07,882 | INFO | clients.api_client | RESPONSE <- 200 PUT https://reqres.in/api/users/818
+2026-05-02 21:19:07,882 | INFO | clients.api_client | Response Body -> {"name":"neo","job":"the one","updatedAt":"2026-05-02T15:44:58.936Z","_meta":{"powered_by":"ReqRes","docs_url":"https://app.reqres.in/documentation","upgrade_url":"https://app.reqres.in/upgrade","example_url":"https://app.reqres.in/examples/notes-app","variant":"v1_a","message":"Your data persists here. Add auth, logs, and custom schemas to build a real backend.","cta":{"label":"See example app","url":"https://app.reqres.in/examples/notes-app"},"context":"legacy_success"}}
+2026-05-02 21:19:07,886 | INFO | clients.api_client | REQUEST -> GET https://reqres.in/api/invalidendpoint
+2026-05-02 21:19:08,287 | INFO | clients.api_client | RESPONSE <- 200 GET https://reqres.in/api/invalidendpoint
+2026-05-02 21:19:08,287 | INFO | clients.api_client | Response Body -> {"page":1,"per_page":6,"total":12,"total_pages":2,"data":[{"id":1,"name":"cerulean","year":2000,"color":"#98B2D1","pantone_value":"15-4020"},{"id":2,"name":"fuchsia rose","year":2001,"color":"#C74375","pantone_value":"17-2031"},{"id":3,"name":"true red","year":2002,"color":"#BF1932","pantone_value":"19-1664"},{"id":4,"name":"aqua sky","year":2003,"color":"#7BC4C4","pantone_value":"14-4811"},{"id":5,"name":"tigerlily","year":2004,"color":"#E2583E","pantone_value":"17-1456"},{"id":6,"name":"blue t
+2026-05-02 21:19:08,291 | INFO | clients.api_client | REQUEST -> GET https://reqres.in/api/users/1
+2026-05-02 21:19:08,696 | INFO | clients.api_client | RESPONSE <- 200 GET https://reqres.in/api/users/1
+2026-05-02 21:19:08,696 | INFO | clients.api_client | Response Body -> {"data":{"id":1,"email":"george.bluth@reqres.in","first_name":"George","last_name":"Bluth","avatar":"https://reqres.in/img/faces/1-image.jpg"},"support":{"url":"https://benhowdle.im/first-cto-playbook?utm_source=reqres&utm_medium=json&utm_campaign=referral","text":"Become a better CTO. A playbook of painful stories and practical advice from a two-time startup CTO."},"_meta":{"powered_by":"ReqRes","docs_url":"https://app.reqres.in/documentation","upgrade_url":"https://app.reqres.in/upgrade","exam
+2026-05-02 21:19:08,699 | INFO | clients.api_client | REQUEST -> GET https://reqres.in/api/users/2
+2026-05-02 21:19:09,124 | INFO | clients.api_client | RESPONSE <- 200 GET https://reqres.in/api/users/2
+2026-05-02 21:19:09,124 | INFO | clients.api_client | Response Body -> {"data":{"id":2,"email":"janet.weaver@reqres.in","first_name":"Janet","last_name":"Weaver","avatar":"https://reqres.in/img/faces/2-image.jpg"},"support":{"url":"https://benhowdle.im/first-cto-playbook?utm_source=reqres&utm_medium=json&utm_campaign=referral","text":"Become a better CTO. A playbook of painful stories and practical advice from a two-time startup CTO."},"_meta":{"powered_by":"ReqRes","docs_url":"https://app.reqres.in/documentation","upgrade_url":"https://app.reqres.in/upgrade","exam
+2026-05-02 21:19:09,128 | INFO | clients.api_client | REQUEST -> GET https://reqres.in/api/users/3
+2026-05-02 21:19:09,557 | INFO | clients.api_client | RESPONSE <- 200 GET https://reqres.in/api/users/3
+2026-05-02 21:19:09,559 | INFO | clients.api_client | Response Body -> {"data":{"id":3,"email":"emma.wong@reqres.in","first_name":"Emma","last_name":"Wong","avatar":"https://reqres.in/img/faces/3-image.jpg"},"support":{"url":"https://benhowdle.im/first-cto-playbook?utm_source=reqres&utm_medium=json&utm_campaign=referral","text":"Become a better CTO. A playbook of painful stories and practical advice from a two-time startup CTO."},"_meta":{"powered_by":"ReqRes","docs_url":"https://app.reqres.in/documentation","upgrade_url":"https://app.reqres.in/upgrade","example_ur
+2026-05-02 21:19:09,561 | INFO | clients.api_client | REQUEST -> GET https://reqres.in/api/users
+2026-05-02 21:19:09,783 | INFO | clients.api_client | RESPONSE <- 200 GET https://reqres.in/api/users
+2026-05-02 21:19:09,790 | INFO | clients.api_client | Response Body -> {"page":1,"per_page":6,"total":12,"total_pages":2,"data":[{"id":1,"email":"george.bluth@reqres.in","first_name":"George","last_name":"Bluth","avatar":"https://reqres.in/img/faces/1-image.jpg"},{"id":2,"email":"janet.weaver@reqres.in","first_name":"Janet","last_name":"Weaver","avatar":"https://reqres.in/img/faces/2-image.jpg"},{"id":3,"email":"emma.wong@reqres.in","first_name":"Emma","last_name":"Wong","avatar":"https://reqres.in/img/faces/3-image.jpg"},{"id":4,"email":"eve.holt@reqres.in","first
+2026-05-02 21:19:09,804 | INFO | clients.api_client | REQUEST -> GET https://reqres.in/api/users/1
+2026-05-02 21:19:10,016 | INFO | clients.api_client | RESPONSE <- 200 GET https://reqres.in/api/users/1
+2026-05-02 21:19:10,017 | INFO | clients.api_client | Response Body -> {"data":{"id":1,"email":"george.bluth@reqres.in","first_name":"George","last_name":"Bluth","avatar":"https://reqres.in/img/faces/1-image.jpg"},"support":{"url":"https://benhowdle.im/first-cto-playbook?utm_source=reqres&utm_medium=json&utm_campaign=referral","text":"Become a better CTO. A playbook of painful stories and practical advice from a two-time startup CTO."},"_meta":{"powered_by":"ReqRes","docs_url":"https://app.reqres.in/documentation","upgrade_url":"https://app.reqres.in/upgrade","exam
+2026-05-02 21:34:03,102 | INFO | clients.api_client | [dccf2bd1] REQUEST -> POST https://reqres.in/api/login
+2026-05-02 21:34:03,103 | INFO | clients.api_client | [dccf2bd1] Payload ->
+{
+  "email": "eve.holt@reqres.in",
+  "password": "cityslicka"
+}
+2026-05-02 21:34:04,229 | INFO | clients.api_client | [dccf2bd1] RESPONSE <- 200 POST https://reqres.in/api/login | 1126.32 ms
+2026-05-02 21:34:04,230 | INFO | clients.api_client | [a492ff84] REQUEST -> POST https://reqres.in/api/users
+2026-05-02 21:34:04,230 | INFO | clients.api_client | [a492ff84] Payload ->
+{
+  "name": "morpheus",
+  "job": "leader"
+}
+2026-05-02 21:34:04,453 | INFO | clients.api_client | [a492ff84] RESPONSE <- 201 POST https://reqres.in/api/users | 222.48 ms
+2026-05-02 21:34:04,453 | INFO | clients.api_client | [03efdd68] REQUEST -> PUT https://reqres.in/api/users/908
+2026-05-02 21:34:04,453 | INFO | clients.api_client | [03efdd68] Payload ->
+{
+  "name": "neo",
+  "job": "the one"
+}
+2026-05-02 21:34:04,940 | INFO | clients.api_client | [03efdd68] RESPONSE <- 200 PUT https://reqres.in/api/users/908 | 486.35 ms
+2026-05-02 21:34:04,948 | INFO | clients.api_client | [74d0814c] REQUEST -> GET https://reqres.in/api/invalidendpoint
+2026-05-02 21:34:05,411 | INFO | clients.api_client | [74d0814c] RESPONSE <- 200 GET https://reqres.in/api/invalidendpoint | 461.06 ms
+2026-05-02 21:34:05,414 | INFO | clients.api_client | [67a3ac75] REQUEST -> GET https://reqres.in/api/users/1
+2026-05-02 21:34:05,843 | INFO | clients.api_client | [67a3ac75] RESPONSE <- 200 GET https://reqres.in/api/users/1 | 429.03 ms
+2026-05-02 21:34:05,846 | INFO | clients.api_client | [c6a8b6cf] REQUEST -> GET https://reqres.in/api/users/2
+2026-05-02 21:34:06,274 | INFO | clients.api_client | [c6a8b6cf] RESPONSE <- 200 GET https://reqres.in/api/users/2 | 427.89 ms
+2026-05-02 21:34:06,278 | INFO | clients.api_client | [660b0ed8] REQUEST -> GET https://reqres.in/api/users/3
+2026-05-02 21:34:06,695 | INFO | clients.api_client | [660b0ed8] RESPONSE <- 200 GET https://reqres.in/api/users/3 | 416.28 ms
+2026-05-02 21:34:06,697 | INFO | clients.api_client | [fbcdd139] REQUEST -> GET https://reqres.in/api/users
+2026-05-02 21:34:06,911 | INFO | clients.api_client | [fbcdd139] RESPONSE <- 200 GET https://reqres.in/api/users | 214.39 ms
+2026-05-02 21:34:06,928 | INFO | clients.api_client | [dc16d042] REQUEST -> GET https://reqres.in/api/users/1
+2026-05-02 21:34:07,146 | INFO | clients.api_client | [dc16d042] RESPONSE <- 200 GET https://reqres.in/api/users/1 | 217.98 ms
+2026-05-02 22:00:12,840 | INFO | clients.api_client | [72ec0a35] REQUEST -> POST https://reqres.in/api/login
+2026-05-02 22:00:12,840 | INFO | clients.api_client | [72ec0a35] Payload ->
+{
+  "email": "eve.holt@reqres.in",
+  "password": "cityslicka"
+}
+2026-05-02 22:00:14,461 | INFO | clients.api_client | [72ec0a35] RESPONSE <- 200 POST https://reqres.in/api/login | 1617.45 ms
+2026-05-02 22:00:14,464 | INFO | clients.api_client | [e5c587c8] REQUEST -> POST https://reqres.in/api/users
+2026-05-02 22:00:14,465 | INFO | clients.api_client | [e5c587c8] Payload ->
+{
+  "name": "morpheus",
+  "job": "leader"
+}
+2026-05-02 22:00:14,673 | INFO | clients.api_client | [e5c587c8] RESPONSE <- 201 POST https://reqres.in/api/users | 208.18 ms
+2026-05-02 22:00:14,673 | INFO | clients.api_client | [ede53328] REQUEST -> PUT https://reqres.in/api/users/573
+2026-05-02 22:00:14,673 | INFO | clients.api_client | [ede53328] Payload ->
+{
+  "name": "neo",
+  "job": "the one"
+}
+2026-05-02 22:00:15,177 | INFO | clients.api_client | [ede53328] RESPONSE <- 200 PUT https://reqres.in/api/users/573 | 504.41 ms
+2026-05-02 22:00:15,188 | INFO | clients.api_client | [1765cc3b] REQUEST -> GET https://reqres.in/api/invalidendpoint
+2026-05-02 22:00:15,687 | INFO | clients.api_client | [1765cc3b] RESPONSE <- 200 GET https://reqres.in/api/invalidendpoint | 498.47 ms
+2026-05-02 22:00:15,702 | INFO | clients.api_client | [61a20f62] REQUEST -> GET https://reqres.in/api/users
+2026-05-02 22:00:16,302 | INFO | clients.api_client | [61a20f62] RESPONSE <- 200 GET https://reqres.in/api/users | 599.02 ms
+2026-05-02 22:00:35,812 | INFO | clients.api_client | [737174c1] REQUEST -> POST https://reqres.in/api/login
+2026-05-02 22:00:35,812 | INFO | clients.api_client | [737174c1] Payload ->
+{
+  "email": "eve.holt@reqres.in",
+  "password": "cityslicka"
+}
+2026-05-02 22:00:36,990 | INFO | clients.api_client | [737174c1] RESPONSE <- 200 POST https://reqres.in/api/login | 1176.12 ms
+2026-05-02 22:00:36,991 | INFO | clients.api_client | [0318a99a] REQUEST -> POST https://reqres.in/api/users
+2026-05-02 22:00:36,991 | INFO | clients.api_client | [0318a99a] Payload ->
+{
+  "name": "morpheus",
+  "job": "leader"
+}
+2026-05-02 22:00:37,296 | INFO | clients.api_client | [0318a99a] RESPONSE <- 201 POST https://reqres.in/api/users | 303.34 ms
+2026-05-02 22:00:37,298 | INFO | clients.api_client | [98a62e49] REQUEST -> PUT https://reqres.in/api/users/511
+2026-05-02 22:00:37,298 | INFO | clients.api_client | [98a62e49] Payload ->
+{
+  "name": "neo",
+  "job": "the one"
+}
+2026-05-02 22:00:37,602 | INFO | clients.api_client | [98a62e49] RESPONSE <- 200 PUT https://reqres.in/api/users/511 | 303.86 ms
+2026-05-02 22:00:37,614 | INFO | clients.api_client | [d89b131e] REQUEST -> GET https://reqres.in/api/invalidendpoint
+2026-05-02 22:00:37,928 | INFO | clients.api_client | [d89b131e] RESPONSE <- 200 GET https://reqres.in/api/invalidendpoint | 313.8 ms
+2026-05-02 22:00:37,939 | INFO | clients.api_client | [576e7f30] REQUEST -> GET https://reqres.in/api/users
+2026-05-02 22:00:38,420 | INFO | clients.api_client | [576e7f30] RESPONSE <- 200 GET https://reqres.in/api/users | 479.06 ms
+2026-05-07 12:16:28,919 | INFO | clients.api_client | [b66a8b81] REQUEST -> POST https://reqres.in/api/login
+2026-05-07 12:16:28,923 | INFO | clients.api_client | [b66a8b81] Payload ->
+{
+  "email": "eve.holt@reqres.in",
+  "password": "cityslicka"
+}
+2026-05-07 12:16:30,855 | INFO | clients.api_client | [b66a8b81] RESPONSE <- 403 POST https://reqres.in/api/login | 1931.84 ms
+2026-05-07 12:16:30,855 | DEBUG | clients.api_client | [b66a8b81] Response Body ->
+{
+  "error": "invalid_api_key",
+  "message": "This API key is not recognized or has been revoked.",
+  "hint": "Check that your API key is correct and not expired.",
+  "next_steps": [
+    "Verify the key in your dashboard at app.reqres.in/api-keys",
+    "Regenerate the key if needed",
+    "Ensure you're using the correct key type (manage/public)"
+  ],
+  "docs_url": "https://app.reqres.in/docs#api-keys",
+  "_meta": {
+    "powered_by": "ReqRes",
+    "docs_url": "https://app.reqres.in/documentation"
+2026-05-07 12:30:15,254 | INFO | clients.api_client | [557a1e0f] REQUEST -> POST https://reqres.in/api/login
+2026-05-07 12:30:15,254 | INFO | clients.api_client | [557a1e0f] Payload ->
+{
+  "email": "eve.holt@reqres.in",
+  "password": "cityslicka"
+}
+2026-05-07 12:30:16,823 | INFO | clients.api_client | [557a1e0f] RESPONSE <- 200 POST https://reqres.in/api/login | 1569.69 ms
+2026-05-07 12:30:16,825 | DEBUG | clients.api_client | [557a1e0f] Response Body ->
+{
+  "token": "QpwL5tke4Pnpja7X4",
+  "_meta": {
+    "powered_by": "ReqRes",
+    "docs_url": "https://app.reqres.in/documentation",
+    "upgrade_url": "https://app.reqres.in/upgrade",
+    "example_url": "https://app.reqres.in/examples/notes-app",
+    "variant": "v1_a",
+    "message": "Your data persists here. Add auth, logs, and custom schemas to build a real backend.",
+    "cta": {
+      "label": "See example app",
+      "url": "https://app.reqres.in/examples/notes-app"
+    },
+    "context": "leg
+2026-05-07 12:30:16,825 | INFO | clients.api_client | [a15999d2] REQUEST -> POST https://reqres.in/api/users
+2026-05-07 12:30:16,828 | INFO | clients.api_client | [a15999d2] Payload ->
+{
+  "name": "morpheus",
+  "job": "leader"
+}
+2026-05-07 12:30:17,129 | INFO | clients.api_client | [a15999d2] RESPONSE <- 201 POST https://reqres.in/api/users | 301.02 ms
+2026-05-07 12:30:17,129 | DEBUG | clients.api_client | [a15999d2] Response Body ->
+{
+  "name": "morpheus",
+  "job": "leader",
+  "id": "298",
+  "createdAt": "2026-05-07T06:56:07.851Z",
+  "_meta": {
+    "powered_by": "ReqRes",
+    "docs_url": "https://app.reqres.in/documentation",
+    "upgrade_url": "https://app.reqres.in/upgrade",
+    "example_url": "https://app.reqres.in/examples/notes-app",
+    "variant": "v1_a",
+    "message": "Your data persists here. Add auth, logs, and custom schemas to build a real backend.",
+    "cta": {
+      "label": "See example app",
+      "url": "h
+2026-05-07 12:30:17,316 | INFO | clients.api_client | [5e1ef896] REQUEST -> GET https://reqres.in/api/users
+2026-05-07 12:30:17,316 | INFO | clients.api_client | [5e1ef896] RESPONSE <- 200 GET https://reqres.in/api/users | 0.0 ms
+2026-05-07 12:30:17,316 | DEBUG | clients.api_client | [5e1ef896] Response Body ->
+{
+  "data": [
+    {
+      "id": 1,
+      "email": "test@test.com"
+    }
+  ]
+}
+2026-05-07 12:30:17,329 | INFO | clients.api_client | [c86c3e52] REQUEST -> GET https://reqres.in/api/invalidendpoint
+2026-05-07 12:30:17,963 | INFO | clients.api_client | [c86c3e52] RESPONSE <- 200 GET https://reqres.in/api/invalidendpoint | 633.99 ms
+2026-05-07 12:30:17,963 | DEBUG | clients.api_client | [c86c3e52] Response Body ->
+{
+  "page": 1,
+  "per_page": 6,
+  "total": 12,
+  "total_pages": 2,
+  "data": [
+    {
+      "id": 1,
+      "name": "cerulean",
+      "year": 2000,
+      "color": "#98B2D1",
+      "pantone_value": "15-4020"
+    },
+    {
+      "id": 2,
+      "name": "fuchsia rose",
+      "year": 2001,
+      "color": "#C74375",
+      "pantone_value": "17-2031"
+    },
+    {
+      "id": 3,
+      "name": "true red",
+      "year": 2002,
+      "color": "#BF1932",
+      "pantone_value": "19-1664"
+    },
+    {
+      "id": 
+2026-05-07 12:30:17,969 | INFO | clients.api_client | [2bff617a] REQUEST -> GET https://reqres.in/api/users
+2026-05-07 12:30:18,413 | INFO | clients.api_client | [2bff617a] RESPONSE <- 200 GET https://reqres.in/api/users | 444.51 ms
+2026-05-07 12:30:18,413 | DEBUG | clients.api_client | [2bff617a] Response Body ->
+{
+  "page": 1,
+  "per_page": 6,
+  "total": 12,
+  "total_pages": 2,
+  "data": [
+    {
+      "id": 1,
+      "email": "george.bluth@reqres.in",
+      "first_name": "George",
+      "last_name": "Bluth",
+      "avatar": "https://reqres.in/img/faces/1-image.jpg"
+    },
+    {
+      "id": 2,
+      "email": "janet.weaver@reqres.in",
+      "first_name": "Janet",
+      "last_name": "Weaver",
+      "avatar": "https://reqres.in/img/faces/2-image.jpg"
+    },
+    {
+      "id": 3,
+      "email": "emma.wong@reqr
+2026-05-07 12:33:27,723 | INFO | clients.api_client | [9b2c855c] REQUEST -> POST https://reqres.in/api/users
+2026-05-07 12:33:27,726 | INFO | clients.api_client | [9b2c855c] Payload ->
+{
+  "name": "morpheus",
+  "job": "leader"
+}
+2026-05-07 12:33:29,134 | INFO | clients.api_client | [9b2c855c] RESPONSE <- 201 POST https://reqres.in/api/users | 1407.82 ms
+2026-05-07 12:33:29,136 | DEBUG | clients.api_client | [9b2c855c] Response Body ->
+{
+  "name": "morpheus",
+  "job": "leader",
+  "id": "761",
+  "createdAt": "2026-05-07T06:59:19.813Z",
+  "_meta": {
+    "powered_by": "ReqRes",
+    "docs_url": "https://app.reqres.in/documentation",
+    "upgrade_url": "https://app.reqres.in/upgrade",
+    "example_url": "https://app.reqres.in/examples/notes-app",
+    "variant": "v1_a",
+    "message": "Your data persists here. Add auth, logs, and custom schemas to build a real backend.",
+    "cta": {
+      "label": "See example app",
+      "url": "h
+2026-05-07 12:33:29,315 | INFO | clients.api_client | [52c77fe0] REQUEST -> GET https://reqres.in/api/users
+2026-05-07 12:33:29,315 | INFO | clients.api_client | [52c77fe0] RESPONSE <- 200 GET https://reqres.in/api/users | 0.0 ms
+2026-05-07 12:33:29,315 | DEBUG | clients.api_client | [52c77fe0] Response Body ->
+{
+  "data": [
+    {
+      "id": 1,
+      "email": "test@test.com"
+    }
+  ]
+}
+2026-05-07 12:33:29,326 | INFO | clients.api_client | [83dd77a3] REQUEST -> GET https://reqres.in/api/invalidendpoint
+2026-05-07 12:33:29,953 | INFO | clients.api_client | [83dd77a3] RESPONSE <- 200 GET https://reqres.in/api/invalidendpoint | 623.32 ms
+2026-05-07 12:33:29,953 | DEBUG | clients.api_client | [83dd77a3] Response Body ->
+{
+  "page": 1,
+  "per_page": 6,
+  "total": 12,
+  "total_pages": 2,
+  "data": [
+    {
+      "id": 1,
+      "name": "cerulean",
+      "year": 2000,
+      "color": "#98B2D1",
+      "pantone_value": "15-4020"
+    },
+    {
+      "id": 2,
+      "name": "fuchsia rose",
+      "year": 2001,
+      "color": "#C74375",
+      "pantone_value": "17-2031"
+    },
+    {
+      "id": 3,
+      "name": "true red",
+      "year": 2002,
+      "color": "#BF1932",
+      "pantone_value": "19-1664"
+    },
+    {
+      "id": 
+2026-05-07 12:33:29,955 | INFO | clients.api_client | [97c64ce9] REQUEST -> GET https://reqres.in/api/users
+2026-05-07 12:33:30,873 | INFO | clients.api_client | [97c64ce9] RESPONSE <- 200 GET https://reqres.in/api/users | 913.9 ms
+2026-05-07 12:33:30,875 | DEBUG | clients.api_client | [97c64ce9] Response Body ->
+{
+  "page": 1,
+  "per_page": 6,
+  "total": 12,
+  "total_pages": 2,
+  "data": [
+    {
+      "id": 1,
+      "email": "george.bluth@reqres.in",
+      "first_name": "George",
+      "last_name": "Bluth",
+      "avatar": "https://reqres.in/img/faces/1-image.jpg"
+    },
+    {
+      "id": 2,
+      "email": "janet.weaver@reqres.in",
+      "first_name": "Janet",
+      "last_name": "Weaver",
+      "avatar": "https://reqres.in/img/faces/2-image.jpg"
+    },
+    {
+      "id": 3,
+      "email": "emma.wong@reqr
+2026-05-07 12:36:06,961 | INFO | clients.api_client | [7976fdda] REQUEST -> POST https://reqres.in/api/users
+2026-05-07 12:36:06,961 | INFO | clients.api_client | [7976fdda] Payload ->
+{
+  "name": "morpheus",
+  "job": "leader"
+}
+2026-05-07 12:36:08,368 | INFO | clients.api_client | [7976fdda] RESPONSE <- 201 POST https://reqres.in/api/users | 1406.48 ms
+2026-05-07 12:36:08,370 | DEBUG | clients.api_client | [7976fdda] Response Body ->
+{
+  "name": "morpheus",
+  "job": "leader",
+  "id": "194",
+  "createdAt": "2026-05-07T07:01:59.137Z",
+  "_meta": {
+    "powered_by": "ReqRes",
+    "docs_url": "https://app.reqres.in/documentation",
+    "upgrade_url": "https://app.reqres.in/upgrade",
+    "example_url": "https://app.reqres.in/examples/notes-app",
+    "variant": "v1_a",
+    "message": "Your data persists here. Add auth, logs, and custom schemas to build a real backend.",
+    "cta": {
+      "label": "See example app",
+      "url": "h
+2026-05-07 12:36:08,370 | INFO | clients.api_client | [c8a9591f] REQUEST -> PUT https://reqres.in/api/users/194
+2026-05-07 12:36:08,370 | INFO | clients.api_client | [c8a9591f] Payload ->
+{
+  "name": "neo",
+  "job": "the one"
+}
+2026-05-07 12:36:09,083 | INFO | clients.api_client | [c8a9591f] RESPONSE <- 200 PUT https://reqres.in/api/users/194 | 712.73 ms
+2026-05-07 12:36:09,083 | DEBUG | clients.api_client | [c8a9591f] Response Body ->
+{
+  "name": "neo",
+  "job": "the one",
+  "updatedAt": "2026-05-07T07:01:59.654Z",
+  "_meta": {
+    "powered_by": "ReqRes",
+    "docs_url": "https://app.reqres.in/documentation",
+    "upgrade_url": "https://app.reqres.in/upgrade",
+    "example_url": "https://app.reqres.in/examples/notes-app",
+    "variant": "v1_a",
+    "message": "Your data persists here. Add auth, logs, and custom schemas to build a real backend.",
+    "cta": {
+      "label": "See example app",
+      "url": "https://app.reqres.i
+2026-05-07 12:36:09,088 | INFO | clients.api_client | [1fb8eac0] REQUEST -> GET https://reqres.in/api/users
+2026-05-07 12:36:09,090 | INFO | clients.api_client | [1fb8eac0] RESPONSE <- 200 GET https://reqres.in/api/users | 1.89 ms
+2026-05-07 12:36:09,090 | DEBUG | clients.api_client | [1fb8eac0] Response Body ->
+{
+  "data": [
+    {
+      "id": 1,
+      "email": "test@test.com"
+    }
+  ]
+}
+2026-05-07 12:36:09,094 | INFO | clients.api_client | [c883facf] REQUEST -> GET https://reqres.in/api/invalidendpoint
+2026-05-07 12:36:09,642 | INFO | clients.api_client | [c883facf] RESPONSE <- 200 GET https://reqres.in/api/invalidendpoint | 548.29 ms
+2026-05-07 12:36:09,645 | DEBUG | clients.api_client | [c883facf] Response Body ->
+{
+  "page": 1,
+  "per_page": 6,
+  "total": 12,
+  "total_pages": 2,
+  "data": [
+    {
+      "id": 1,
+      "name": "cerulean",
+      "year": 2000,
+      "color": "#98B2D1",
+      "pantone_value": "15-4020"
+    },
+    {
+      "id": 2,
+      "name": "fuchsia rose",
+      "year": 2001,
+      "color": "#C74375",
+      "pantone_value": "17-2031"
+    },
+    {
+      "id": 3,
+      "name": "true red",
+      "year": 2002,
+      "color": "#BF1932",
+      "pantone_value": "19-1664"
+    },
+    {
+      "id": 
+2026-05-07 12:36:09,650 | INFO | clients.api_client | [1512cf0b] REQUEST -> GET https://reqres.in/api/users
+2026-05-07 12:36:10,158 | INFO | clients.api_client | [1512cf0b] RESPONSE <- 200 GET https://reqres.in/api/users | 507.75 ms
+2026-05-07 12:36:10,160 | DEBUG | clients.api_client | [1512cf0b] Response Body ->
+{
+  "page": 1,
+  "per_page": 6,
+  "total": 12,
+  "total_pages": 2,
+  "data": [
+    {
+      "id": 1,
+      "email": "george.bluth@reqres.in",
+      "first_name": "George",
+      "last_name": "Bluth",
+      "avatar": "https://reqres.in/img/faces/1-image.jpg"
+    },
+    {
+      "id": 2,
+      "email": "janet.weaver@reqres.in",
+      "first_name": "Janet",
+      "last_name": "Weaver",
+      "avatar": "https://reqres.in/img/faces/2-image.jpg"
+    },
+    {
+      "id": 3,
+      "email": "emma.wong@reqr
+2026-05-07 17:35:38,198 | INFO | clients.api_client | [1ce5fa24] REQUEST -> POST https://reqres.in/api/users
+2026-05-07 17:35:38,200 | INFO | clients.api_client | [1ce5fa24] Payload ->
+{
+  "name": "morpheus",
+  "job": "leader"
+}
+2026-05-07 17:35:40,594 | INFO | clients.api_client | [1ce5fa24] RESPONSE <- 201 POST https://reqres.in/api/users | 2393.55 ms
+2026-05-07 17:35:40,594 | DEBUG | clients.api_client | [1ce5fa24] Response Body ->
+{
+  "name": "morpheus",
+  "job": "leader",
+  "id": "374",
+  "createdAt": "2026-05-07T12:01:31.393Z",
+  "_meta": {
+    "powered_by": "ReqRes",
+    "docs_url": "https://app.reqres.in/documentation",
+    "upgrade_url": "https://app.reqres.in/upgrade",
+    "example_url": "https://app.reqres.in/examples/notes-app",
+    "variant": "v1_a",
+    "message": "Your data persists here. Add auth, logs, and custom schemas to build a real backend.",
+    "cta": {
+      "label": "See example app",
+      "url": "h
+2026-05-07 17:35:40,594 | INFO | clients.api_client | [3df69f29] REQUEST -> PUT https://reqres.in/api/users/374
+2026-05-07 17:35:40,594 | INFO | clients.api_client | [3df69f29] Payload ->
+{
+  "name": "neo",
+  "job": "the one"
+}
+2026-05-07 17:35:41,619 | INFO | clients.api_client | [3df69f29] RESPONSE <- 200 PUT https://reqres.in/api/users/374 | 1024.7 ms
+2026-05-07 17:35:41,619 | DEBUG | clients.api_client | [3df69f29] Response Body ->
+{
+  "name": "neo",
+  "job": "the one",
+  "updatedAt": "2026-05-07T12:01:32.315Z",
+  "_meta": {
+    "powered_by": "ReqRes",
+    "docs_url": "https://app.reqres.in/documentation",
+    "upgrade_url": "https://app.reqres.in/upgrade",
+    "example_url": "https://app.reqres.in/examples/notes-app",
+    "variant": "v1_a",
+    "message": "Your data persists here. Add auth, logs, and custom schemas to build a real backend.",
+    "cta": {
+      "label": "See example app",
+      "url": "https://app.reqres.i
+2026-05-07 17:35:41,631 | INFO | clients.api_client | [0b0974cc] REQUEST -> GET https://reqres.in/api/users
+2026-05-07 17:35:41,632 | INFO | clients.api_client | [0b0974cc] RESPONSE <- 200 GET https://reqres.in/api/users | 1.81 ms
+2026-05-07 17:35:41,632 | DEBUG | clients.api_client | [0b0974cc] Response Body ->
+{
+  "data": [
+    {
+      "id": 1,
+      "email": "test@test.com"
+    }
+  ]
+}
+2026-05-07 17:35:41,640 | INFO | clients.api_client | [48c86839] REQUEST -> GET https://reqres.in/api/invalidendpoint
+2026-05-07 17:35:42,231 | INFO | clients.api_client | [48c86839] RESPONSE <- 200 GET https://reqres.in/api/invalidendpoint | 590.29 ms
+2026-05-07 17:35:42,231 | DEBUG | clients.api_client | [48c86839] Response Body ->
+{
+  "page": 1,
+  "per_page": 6,
+  "total": 12,
+  "total_pages": 2,
+  "data": [
+    {
+      "id": 1,
+      "name": "cerulean",
+      "year": 2000,
+      "color": "#98B2D1",
+      "pantone_value": "15-4020"
+    },
+    {
+      "id": 2,
+      "name": "fuchsia rose",
+      "year": 2001,
+      "color": "#C74375",
+      "pantone_value": "17-2031"
+    },
+    {
+      "id": 3,
+      "name": "true red",
+      "year": 2002,
+      "color": "#BF1932",
+      "pantone_value": "19-1664"
+    },
+    {
+      "id": 
+2026-05-07 17:35:42,236 | INFO | clients.api_client | [cf287bd0] REQUEST -> GET https://reqres.in/api/users
+2026-05-07 17:35:43,049 | INFO | clients.api_client | [cf287bd0] RESPONSE <- 200 GET https://reqres.in/api/users | 813.04 ms
+2026-05-07 17:35:43,049 | DEBUG | clients.api_client | [cf287bd0] Response Body ->
+{
+  "page": 1,
+  "per_page": 6,
+  "total": 12,
+  "total_pages": 2,
+  "data": [
+    {
+      "id": 1,
+      "email": "george.bluth@reqres.in",
+      "first_name": "George",
+      "last_name": "Bluth",
+      "avatar": "https://reqres.in/img/faces/1-image.jpg"
+    },
+    {
+      "id": 2,
+      "email": "janet.weaver@reqres.in",
+      "first_name": "Janet",
+      "last_name": "Weaver",
+      "avatar": "https://reqres.in/img/faces/2-image.jpg"
+    },
+    {
+      "id": 3,
+      "email": "emma.wong@reqr
+2026-05-07 17:39:12,314 | INFO | clients.api_client | [2d012dfb] REQUEST -> POST https://reqres.in/api/users
+2026-05-07 17:39:12,314 | INFO | clients.api_client | [2d012dfb] Payload ->
+{
+  "name": "morpheus",
+  "job": "leader"
+}
+2026-05-07 17:39:13,995 | INFO | clients.api_client | [2d012dfb] RESPONSE <- 201 POST https://reqres.in/api/users | 1681.47 ms
+2026-05-07 17:39:13,995 | INFO | clients.api_client | [2631c881] REQUEST -> PUT https://reqres.in/api/users/297
+2026-05-07 17:39:13,997 | INFO | clients.api_client | [2631c881] Payload ->
+{
+  "name": "neo",
+  "job": "the one"
+}
+2026-05-07 17:39:14,610 | INFO | clients.api_client | [2631c881] RESPONSE <- 200 PUT https://reqres.in/api/users/297 | 613.13 ms
+2026-05-07 17:39:14,623 | INFO | clients.api_client | [5b257e50] REQUEST -> GET https://reqres.in/api/users
+2026-05-07 17:39:14,628 | INFO | clients.api_client | [5b257e50] RESPONSE <- 200 GET https://reqres.in/api/users | 4.39 ms
+2026-05-07 17:39:14,635 | INFO | clients.api_client | [bbb23696] REQUEST -> GET https://reqres.in/api/invalidendpoint
+2026-05-07 17:39:15,122 | INFO | clients.api_client | [bbb23696] RESPONSE <- 200 GET https://reqres.in/api/invalidendpoint | 486.6 ms
+2026-05-07 17:39:15,126 | INFO | clients.api_client | [b6446735] REQUEST -> GET https://reqres.in/api/users
+2026-05-07 17:39:15,545 | INFO | clients.api_client | [b6446735] RESPONSE <- 200 GET https://reqres.in/api/users | 418.52 ms
+2026-05-07 17:41:50,906 | INFO | clients.api_client | [296e9bc0] REQUEST -> POST https://reqres.in/api/users
+2026-05-07 17:41:50,906 | INFO | clients.api_client | [296e9bc0] Payload ->
+{
+  "name": "morpheus",
+  "job": "leader"
+}
+2026-05-07 17:41:53,443 | INFO | clients.api_client | [296e9bc0] RESPONSE <- 403 POST https://reqres.in/api/users | 2536.66 ms
+2026-05-07 17:41:53,729 | INFO | clients.api_client | [4db99cfc] REQUEST -> GET https://reqres.in/api/users
+2026-05-07 17:41:53,731 | INFO | clients.api_client | [4db99cfc] RESPONSE <- 200 GET https://reqres.in/api/users | 0.0 ms
+2026-05-07 17:41:53,731 | INFO | clients.api_client | [423772d8] REQUEST -> GET https://reqres.in/api/invalidendpoint
+2026-05-07 17:41:54,314 | INFO | clients.api_client | [423772d8] RESPONSE <- 403 GET https://reqres.in/api/invalidendpoint | 583.64 ms
+2026-05-07 17:41:54,328 | INFO | clients.api_client | [a1b329ce] REQUEST -> GET https://reqres.in/api/users
+2026-05-07 17:41:54,759 | INFO | clients.api_client | [a1b329ce] RESPONSE <- 403 GET https://reqres.in/api/users | 430.73 ms
+2026-05-07 17:44:38,151 | INFO | clients.api_client | [e8dbdad2] REQUEST -> GET https://reqres.in/api/users
+2026-05-07 17:44:38,163 | INFO | clients.api_client | [e8dbdad2] RESPONSE <- 200 GET https://reqres.in/api/users | 5.67 ms
+2026-05-07 17:49:12,703 | INFO | clients.api_client | [801ec586] REQUEST -> POST https://reqres.in/api/users
+2026-05-07 17:49:12,705 | INFO | clients.api_client | [801ec586] Payload ->
+{
+  "name": "morpheus",
+  "job": "leader"
+}
+2026-05-07 17:49:14,270 | INFO | clients.api_client | [801ec586] RESPONSE <- 403 POST https://reqres.in/api/users | 1564.9 ms
+2026-05-07 17:49:14,272 | DEBUG | clients.api_client | [801ec586] Response Body ->
+{
+  "error": "invalid_api_key",
+  "message": "This API key is not recognized or has been revoked.",
+  "hint": "Check that your API key is correct and not expired.",
+  "next_steps": [
+    "Verify the key in your dashboard at app.reqres.in/api-keys",
+    "Regenerate the key if needed",
+    "Ensure you're using the correct key type (manage/public)"
+  ],
+  "docs_url": "https://app.reqres.in/docs#api-keys",
+  "_meta": {
+    "powered_by": "ReqRes",
+    "docs_url": "https://app.reqres.in/documentation"
+2026-05-07 17:49:14,462 | INFO | clients.api_client | [7809dbe2] REQUEST -> GET https://reqres.in/api/users
+2026-05-07 17:49:14,462 | INFO | clients.api_client | [7809dbe2] RESPONSE <- 200 GET https://reqres.in/api/users | 0.0 ms
+2026-05-07 17:49:14,464 | DEBUG | clients.api_client | [7809dbe2] Response Body ->
+{
+  "data": [
+    {
+      "id": 1,
+      "email": "test@test.com"
+    }
+  ]
+}
+2026-05-07 17:49:14,471 | INFO | clients.api_client | [209c8376] REQUEST -> GET https://reqres.in/api/invalidendpoint
+2026-05-07 17:49:14,989 | INFO | clients.api_client | [209c8376] RESPONSE <- 403 GET https://reqres.in/api/invalidendpoint | 517.4 ms
+2026-05-07 17:49:14,991 | DEBUG | clients.api_client | [209c8376] Response Body ->
+{
+  "error": "invalid_api_key",
+  "message": "This API key is not recognized or has been revoked.",
+  "hint": "Check that your API key is correct and not expired.",
+  "next_steps": [
+    "Verify the key in your dashboard at app.reqres.in/api-keys",
+    "Regenerate the key if needed",
+    "Ensure you're using the correct key type (manage/public)"
+  ],
+  "docs_url": "https://app.reqres.in/docs#api-keys",
+  "_meta": {
+    "powered_by": "ReqRes",
+    "docs_url": "https://app.reqres.in/documentation"
+2026-05-07 17:49:14,997 | INFO | clients.api_client | [de8d9257] REQUEST -> GET https://reqres.in/api/users
+2026-05-07 17:49:15,499 | INFO | clients.api_client | [de8d9257] RESPONSE <- 403 GET https://reqres.in/api/users | 498.25 ms
+2026-05-07 17:49:15,499 | DEBUG | clients.api_client | [de8d9257] Response Body ->
+{
+  "error": "invalid_api_key",
+  "message": "This API key is not recognized or has been revoked.",
+  "hint": "Check that your API key is correct and not expired.",
+  "next_steps": [
+    "Verify the key in your dashboard at app.reqres.in/api-keys",
+    "Regenerate the key if needed",
+    "Ensure you're using the correct key type (manage/public)"
+  ],
+  "docs_url": "https://app.reqres.in/docs#api-keys",
+  "_meta": {
+    "powered_by": "ReqRes",
+    "docs_url": "https://app.reqres.in/documentation"
+2026-05-07 17:58:52,938 | INFO | clients.api_client | [dd780065] REQUEST -> POST https://reqres.in/api/users
+2026-05-07 17:58:52,940 | INFO | clients.api_client | [dd780065] Payload ->
+{
+  "name": "morpheus",
+  "job": "leader"
+}
+2026-05-07 17:58:54,579 | INFO | clients.api_client | [dd780065] RESPONSE <- 403 POST https://reqres.in/api/users | 1639.36 ms
+2026-05-07 17:58:54,579 | ERROR | clients.api_client | [dd780065] Error Response ->
+{
+  "error": "invalid_api_key",
+  "message": "This API key is not recognized or has been revoked.",
+  "hint": "Check that your API key is correct and not expired.",
+  "next_steps": [
+    "Verify the key in your dashboard at app.reqres.in/api-keys",
+    "Regenerate the key if needed",
+    "Ensure you're using the correct key type (manage/public)"
+  ],
+  "docs_url": "https://app.reqres.in/docs#api-keys",
+  "_meta": {
+    "powered_by": "ReqRes",
+    "docs_url": "https://app.reqres.in/documentation"
+2026-05-07 17:58:54,763 | INFO | clients.api_client | [04ceeb51] REQUEST -> GET https://reqres.in/api/users
+2026-05-07 17:58:54,763 | INFO | clients.api_client | [04ceeb51] RESPONSE <- 200 GET https://reqres.in/api/users | 0.0 ms
+2026-05-07 17:58:54,763 | DEBUG | clients.api_client | [04ceeb51] Response Body ->
+{
+  "data": [
+    {
+      "id": 1,
+      "email": "test@test.com"
+    }
+  ]
+}
+2026-05-07 17:58:54,771 | INFO | clients.api_client | [eabc7407] REQUEST -> GET https://reqres.in/api/invalidendpoint
+2026-05-07 17:58:55,193 | INFO | clients.api_client | [eabc7407] RESPONSE <- 403 GET https://reqres.in/api/invalidendpoint | 421.49 ms
+2026-05-07 17:58:55,194 | ERROR | clients.api_client | [eabc7407] Error Response ->
+{
+  "error": "invalid_api_key",
+  "message": "This API key is not recognized or has been revoked.",
+  "hint": "Check that your API key is correct and not expired.",
+  "next_steps": [
+    "Verify the key in your dashboard at app.reqres.in/api-keys",
+    "Regenerate the key if needed",
+    "Ensure you're using the correct key type (manage/public)"
+  ],
+  "docs_url": "https://app.reqres.in/docs#api-keys",
+  "_meta": {
+    "powered_by": "ReqRes",
+    "docs_url": "https://app.reqres.in/documentation"
+2026-05-07 17:58:55,203 | INFO | clients.api_client | [1620b9d3] REQUEST -> GET https://reqres.in/api/users
+2026-05-07 17:58:55,603 | INFO | clients.api_client | [1620b9d3] RESPONSE <- 403 GET https://reqres.in/api/users | 400.17 ms
+2026-05-07 17:58:55,604 | ERROR | clients.api_client | [1620b9d3] Error Response ->
+{
+  "error": "invalid_api_key",
+  "message": "This API key is not recognized or has been revoked.",
+  "hint": "Check that your API key is correct and not expired.",
+  "next_steps": [
+    "Verify the key in your dashboard at app.reqres.in/api-keys",
+    "Regenerate the key if needed",
+    "Ensure you're using the correct key type (manage/public)"
+  ],
+  "docs_url": "https://app.reqres.in/docs#api-keys",
+  "_meta": {
+    "powered_by": "ReqRes",
+    "docs_url": "https://app.reqres.in/documentation"
+2026-05-07 17:59:41,953 | INFO | clients.api_client | [1fb83f32] REQUEST -> POST https://reqres.in/api/users
+2026-05-07 17:59:41,953 | INFO | clients.api_client | [1fb83f32] Payload ->
+{
+  "name": "morpheus",
+  "job": "leader"
+}
+2026-05-07 17:59:42,979 | INFO | clients.api_client | [1fb83f32] RESPONSE <- 403 POST https://reqres.in/api/users | 1023.72 ms
+2026-05-07 17:59:42,980 | ERROR | clients.api_client | [1fb83f32] Error Response ->
+{
+  "error": "invalid_api_key",
+  "message": "This API key is not recognized or has been revoked.",
+  "hint": "Check that your API key is correct and not expired.",
+  "next_steps": [
+    "Verify the key in your dashboard at app.reqres.in/api-keys",
+    "Regenerate the key if needed",
+    "Ensure you're using the correct key type (manage/public)"
+  ],
+  "docs_url": "https://app.reqres.in/docs#api-keys",
+  "_meta": {
+    "powered_by": "ReqRes",
+    "docs_url": "https://app.reqres.in/documentation"
+2026-05-07 17:59:43,189 | INFO | clients.api_client | [83f9acfd] REQUEST -> GET https://reqres.in/api/users
+2026-05-07 17:59:43,191 | INFO | clients.api_client | [83f9acfd] RESPONSE <- 200 GET https://reqres.in/api/users | 1.34 ms
+2026-05-07 17:59:43,197 | INFO | clients.api_client | [576e35c7] REQUEST -> GET https://reqres.in/api/invalidendpoint
+2026-05-07 17:59:43,436 | INFO | clients.api_client | [576e35c7] RESPONSE <- 403 GET https://reqres.in/api/invalidendpoint | 238.5 ms
+2026-05-07 17:59:43,436 | ERROR | clients.api_client | [576e35c7] Error Response ->
+{
+  "error": "invalid_api_key",
+  "message": "This API key is not recognized or has been revoked.",
+  "hint": "Check that your API key is correct and not expired.",
+  "next_steps": [
+    "Verify the key in your dashboard at app.reqres.in/api-keys",
+    "Regenerate the key if needed",
+    "Ensure you're using the correct key type (manage/public)"
+  ],
+  "docs_url": "https://app.reqres.in/docs#api-keys",
+  "_meta": {
+    "powered_by": "ReqRes",
+    "docs_url": "https://app.reqres.in/documentation"
+2026-05-07 17:59:43,444 | INFO | clients.api_client | [6a132b60] REQUEST -> GET https://reqres.in/api/users
+2026-05-07 17:59:43,662 | INFO | clients.api_client | [6a132b60] RESPONSE <- 403 GET https://reqres.in/api/users | 216.23 ms
+2026-05-07 17:59:43,662 | ERROR | clients.api_client | [6a132b60] Error Response ->
+{
+  "error": "invalid_api_key",
+  "message": "This API key is not recognized or has been revoked.",
+  "hint": "Check that your API key is correct and not expired.",
+  "next_steps": [
+    "Verify the key in your dashboard at app.reqres.in/api-keys",
+    "Regenerate the key if needed",
+    "Ensure you're using the correct key type (manage/public)"
+  ],
+  "docs_url": "https://app.reqres.in/docs#api-keys",
+  "_meta": {
+    "powered_by": "ReqRes",
+    "docs_url": "https://app.reqres.in/documentation"
+2026-05-07 18:00:27,495 | INFO | clients.api_client | [62a1238b] REQUEST -> POST https://reqres.in/api/users
+2026-05-07 18:00:27,496 | INFO | clients.api_client | [62a1238b] Payload ->
+{
+  "name": "morpheus",
+  "job": "leader"
+}
+2026-05-07 18:00:28,590 | INFO | clients.api_client | [62a1238b] RESPONSE <- 403 POST https://reqres.in/api/users | 1093.55 ms
+2026-05-07 18:00:28,590 | ERROR | clients.api_client | [62a1238b] Error Response ->
+{
+  "error": "invalid_api_key",
+  "message": "This API key is not recognized or has been revoked.",
+  "hint": "Check that your API key is correct and not expired.",
+  "next_steps": [
+    "Verify the key in your dashboard at app.reqres.in/api-keys",
+    "Regenerate the key if needed",
+    "Ensure you're using the correct key type (manage/public)"
+  ],
+  "docs_url": "https://app.reqres.in/docs#api-keys",
+  "_meta": {
+    "powered_by": "ReqRes",
+    "docs_url": "https://app.reqres.in/documentation"
+2026-05-07 18:00:28,778 | INFO | clients.api_client | [7724b9dd] REQUEST -> GET https://reqres.in/api/users
+2026-05-07 18:00:28,789 | INFO | clients.api_client | [7724b9dd] RESPONSE <- 200 GET https://reqres.in/api/users | 0.0 ms
+2026-05-07 18:00:28,789 | DEBUG | clients.api_client | [7724b9dd] Response Body ->
+{
+  "data": [
+    {
+      "id": 1,
+      "email": "test@test.com"
+    }
+  ]
+}
+2026-05-07 18:00:28,801 | INFO | clients.api_client | [810764aa] REQUEST -> GET https://reqres.in/api/invalidendpoint
+2026-05-07 18:00:29,198 | INFO | clients.api_client | [810764aa] RESPONSE <- 403 GET https://reqres.in/api/invalidendpoint | 396.57 ms
+2026-05-07 18:00:29,198 | ERROR | clients.api_client | [810764aa] Error Response ->
+{
+  "error": "invalid_api_key",
+  "message": "This API key is not recognized or has been revoked.",
+  "hint": "Check that your API key is correct and not expired.",
+  "next_steps": [
+    "Verify the key in your dashboard at app.reqres.in/api-keys",
+    "Regenerate the key if needed",
+    "Ensure you're using the correct key type (manage/public)"
+  ],
+  "docs_url": "https://app.reqres.in/docs#api-keys",
+  "_meta": {
+    "powered_by": "ReqRes",
+    "docs_url": "https://app.reqres.in/documentation"
+2026-05-07 18:00:29,218 | INFO | clients.api_client | [16c9be67] REQUEST -> GET https://reqres.in/api/users
+2026-05-07 18:00:29,506 | INFO | clients.api_client | [16c9be67] RESPONSE <- 403 GET https://reqres.in/api/users | 287.96 ms
+2026-05-07 18:00:29,506 | ERROR | clients.api_client | [16c9be67] Error Response ->
+{
+  "error": "invalid_api_key",
+  "message": "This API key is not recognized or has been revoked.",
+  "hint": "Check that your API key is correct and not expired.",
+  "next_steps": [
+    "Verify the key in your dashboard at app.reqres.in/api-keys",
+    "Regenerate the key if needed",
+    "Ensure you're using the correct key type (manage/public)"
+  ],
+  "docs_url": "https://app.reqres.in/docs#api-keys",
+  "_meta": {
+    "powered_by": "ReqRes",
+    "docs_url": "https://app.reqres.in/documentation"
+2026-05-07 18:04:16,088 | INFO | clients.api_client | [9c25cd8e] REQUEST -> POST https://reqres.in/api/users
+2026-05-07 18:04:16,088 | INFO | clients.api_client | [9c25cd8e] Payload ->
+{
+  "name": "morpheus",
+  "job": "leader"
+}
+2026-05-07 18:04:17,999 | INFO | clients.api_client | [9c25cd8e] RESPONSE <- 201 POST https://reqres.in/api/users | 1910.54 ms
+2026-05-07 18:04:18,001 | DEBUG | clients.api_client | [9c25cd8e] Response Body ->
+{
+  "name": "morpheus",
+  "job": "leader",
+  "id": "563",
+  "createdAt": "2026-05-07T12:30:08.678Z",
+  "_meta": {
+    "powered_by": "ReqRes",
+    "docs_url": "https://app.reqres.in/documentation",
+    "upgrade_url": "https://app.reqres.in/upgrade",
+    "example_url": "https://app.reqres.in/examples/notes-app",
+    "variant": "v1_a",
+    "message": "Your data persists here. Add auth, logs, and custom schemas to build a real backend.",
+    "cta": {
+      "label": "See example app",
+      "url": "h
+2026-05-07 18:04:18,007 | INFO | clients.api_client | [ff349616] REQUEST -> PUT https://reqres.in/api/users/563
+2026-05-07 18:04:18,007 | INFO | clients.api_client | [ff349616] Payload ->
+{
+  "name": "neo",
+  "job": "the one"
+}
+2026-05-07 18:04:18,779 | INFO | clients.api_client | [ff349616] RESPONSE <- 200 PUT https://reqres.in/api/users/563 | 769.76 ms
+2026-05-07 18:04:18,782 | DEBUG | clients.api_client | [ff349616] Response Body ->
+{
+  "name": "neo",
+  "job": "the one",
+  "updatedAt": "2026-05-07T12:30:09.577Z",
+  "_meta": {
+    "powered_by": "ReqRes",
+    "docs_url": "https://app.reqres.in/documentation",
+    "upgrade_url": "https://app.reqres.in/upgrade",
+    "example_url": "https://app.reqres.in/examples/notes-app",
+    "variant": "v1_a",
+    "message": "Your data persists here. Add auth, logs, and custom schemas to build a real backend.",
+    "cta": {
+      "label": "See example app",
+      "url": "https://app.reqres.i
+2026-05-07 18:04:18,790 | INFO | clients.api_client | [65f6142d] REQUEST -> GET https://reqres.in/api/users
+2026-05-07 18:04:18,790 | INFO | clients.api_client | [65f6142d] RESPONSE <- 200 GET https://reqres.in/api/users | 0.0 ms
+2026-05-07 18:04:18,790 | DEBUG | clients.api_client | [65f6142d] Response Body ->
+{
+  "data": [
+    {
+      "id": 1,
+      "email": "test@test.com"
+    }
+  ]
+}
+2026-05-07 18:04:18,797 | INFO | clients.api_client | [cd21c099] REQUEST -> GET https://reqres.in/api/invalidendpoint
+2026-05-07 18:04:19,402 | INFO | clients.api_client | [cd21c099] RESPONSE <- 200 GET https://reqres.in/api/invalidendpoint | 604.39 ms
+2026-05-07 18:04:19,402 | DEBUG | clients.api_client | [cd21c099] Response Body ->
+{
+  "page": 1,
+  "per_page": 6,
+  "total": 12,
+  "total_pages": 2,
+  "data": [
+    {
+      "id": 1,
+      "name": "cerulean",
+      "year": 2000,
+      "color": "#98B2D1",
+      "pantone_value": "15-4020"
+    },
+    {
+      "id": 2,
+      "name": "fuchsia rose",
+      "year": 2001,
+      "color": "#C74375",
+      "pantone_value": "17-2031"
+    },
+    {
+      "id": 3,
+      "name": "true red",
+      "year": 2002,
+      "color": "#BF1932",
+      "pantone_value": "19-1664"
+    },
+    {
+      "id": 
+2026-05-07 18:04:19,407 | INFO | clients.api_client | [08c0e14d] REQUEST -> GET https://reqres.in/api/users
+2026-05-07 18:04:19,614 | INFO | clients.api_client | [08c0e14d] RESPONSE <- 200 GET https://reqres.in/api/users | 205.13 ms
+2026-05-07 18:04:19,614 | DEBUG | clients.api_client | [08c0e14d] Response Body ->
+{
+  "page": 1,
+  "per_page": 6,
+  "total": 12,
+  "total_pages": 2,
+  "data": [
+    {
+      "id": 1,
+      "email": "george.bluth@reqres.in",
+      "first_name": "George",
+      "last_name": "Bluth",
+      "avatar": "https://reqres.in/img/faces/1-image.jpg"
+    },
+    {
+      "id": 2,
+      "email": "janet.weaver@reqres.in",
+      "first_name": "Janet",
+      "last_name": "Weaver",
+      "avatar": "https://reqres.in/img/faces/2-image.jpg"
+    },
+    {
+      "id": 3,
+      "email": "emma.wong@reqr

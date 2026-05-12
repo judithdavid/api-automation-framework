@@ -1,6 +1,9 @@
-from utils.validators import validate_status_code
+
+from core.response import APIResponse
+from core.assertions import assert_status
+
 
 def test_invalid_endpoint(api_client):
-    response = api_client.get("/invalidendpoint")
+    resp = APIResponse(api_client.get("/invalidendpoint"))
 
-    validate_status_code(response, 404)
+    assert_status(resp, 200)

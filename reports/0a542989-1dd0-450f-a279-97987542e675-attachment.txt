@@ -1,0 +1,2 @@
+2026-05-02 22:00:15,702 | INFO | clients.api_client | [61a20f62] REQUEST -> GET https://reqres.in/api/users
+2026-05-02 22:00:16,302 | INFO | clients.api_client | [61a20f62] RESPONSE <- 200 GET https://reqres.in/api/users | 599.02 ms
