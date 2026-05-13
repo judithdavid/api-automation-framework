@@ -4,6 +4,16 @@ Production-grade API automation framework built using Python, PyTest, and Reques
 
 ---
 
+# Current Status
+
+- 4 automated API tests
+- GitHub Actions CI passing
+- Allure reporting integrated
+- Mocking support enabled
+- Schema validation implemented
+
+---
+
 # Features
 
 - Reusable HTTP client using `requests.Session`
@@ -63,14 +73,18 @@ api-automation-framework/
 │   ├── loggers.py
 │   └── validators.py
 │
+├── images/
+│
 ├── logs/
 │
 ├── reports/
 │
+├── .github/
+│
 ├── conftest.py
 ├── pytest.ini
 ├── requirements.txt
-├── .env
+├── .env.example
 ├── .gitignore
 └── README.md
 ```
@@ -89,7 +103,7 @@ https://reqres.in
 
 The framework supports configurable logging levels through `.env`.
 
-## DEBUG mode
+## DEBUG Mode
 
 Logs:
 - Request URL
@@ -98,7 +112,7 @@ Logs:
 - Response timing
 - Request tracing IDs
 
-## INFO mode
+## INFO Mode
 
 Logs:
 - Request URL
@@ -124,16 +138,18 @@ The framework currently validates:
 
 # Environment Configuration
 
-Create a `.env` file in the project root:
+Create a `.env` file in the project root.
+
+Example:
 
 ```env
 API_BASE_URL=https://reqres.in/api
 API_TIMEOUT=10
 
-API_EMAIL=eve.holt@reqres.in
-API_PASSWORD=cityslicka
+API_EMAIL=your_email
+API_PASSWORD=your_password
 
-API_KEY=your_api_key_here
+API_KEY=your_api_key
 
 LOG_LEVEL=DEBUG
 ```
@@ -145,7 +161,7 @@ LOG_LEVEL=DEBUG
 ## 1. Clone Repository
 
 ```bash
-git clone <your_repo_url>
+git clone https://github.com/judithdavid/api-automation-framework.git
 cd api-automation-framework
 ```
 
@@ -179,7 +195,7 @@ pip install -r requirements.txt
 
 # Running Tests
 
-## Run full suite
+## Run Full Suite
 
 ```bash
 pytest -v
@@ -187,7 +203,7 @@ pytest -v
 
 ---
 
-## Run smoke tests
+## Run Smoke Tests
 
 ```bash
 pytest -m smoke
@@ -195,7 +211,7 @@ pytest -m smoke
 
 ---
 
-## Run regression tests
+## Run Regression Tests
 
 ```bash
 pytest -m regression
@@ -203,7 +219,7 @@ pytest -m regression
 
 ---
 
-## Run mock tests
+## Run Mock Tests
 
 ```bash
 pytest tests/test_mock_users.py -v
@@ -227,19 +243,27 @@ allure serve reports
 
 ---
 
-# CI/CD
+# CI Pipeline
 
-The framework includes GitHub Actions integration for automated test execution on push.
+GitHub Actions automatically executes the API test suite on every push and pull request.
+
+## GitHub Actions Workflow
+
+![GitHub Actions](images/github-actions-success.png)
 
 ---
 
-# Example Logs
+# Reporting Dashboard
 
-```text
-[1ce5fa24] REQUEST -> POST https://reqres.in/api/users
+## Allure Dashboard
 
-[1ce5fa24] RESPONSE <- 201 POST https://reqres.in/api/users | 2393.55 ms
-```
+![Allure Dashboard](images/allure-dashboard.png)
+
+---
+
+## Allure Test Execution
+
+![Allure Test Suite](images/allure-test-suite.png)
 
 ---
 
@@ -252,6 +276,7 @@ The framework includes GitHub Actions integration for automated test execution o
 - Environment-driven configuration
 - Clean separation of concerns
 - Reusable validation and assertion layers
+- CI-verified execution on GitHub Actions
 
 ---
 
